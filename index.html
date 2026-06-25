@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Sánchez | Transformación, Procesos & Gestión de Talento</title>
+    <meta name="description" content="Portafolio profesional de Juan Pablo Sánchez (2026). Consultor en transformación, procesos, agilidad, IA aplicada y experiencias humanas.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ==================== PANTALLA DE ACCESO (GATING OVERLAY) ==================== -->
+    <div id="gating-overlay" class="gating-overlay">
+        <div class="gating-card">
+            <div class="gating-header">
+                <div class="logo-monogram-container">
+                    <span class="logo-text-large">JPS</span>
+                </div>
+                <h2>Acceso al Portafolio</h2>
+                <p>Por favor, ingresá tus datos para conocer mi experiencia, proyectos y casos de transformación.</p>
+            </div>
+            <form id="gating-form" class="gating-form">
+                <div class="form-group">
+                    <label for="gate-name">Nombre y Apellido</label>
+                    <input type="text" id="gate-name" placeholder="Ej: María González" required>
+                </div>
+                <div class="form-group">
+                    <label for="gate-company">Empresa / Organización</label>
+                    <input type="text" id="gate-company" placeholder="Ej: Empresa X" required>
+                </div>
+                <div class="form-group">
+                    <label for="gate-email">Correo Electrónico</label>
+                    <input type="email" id="gate-email" placeholder="Ej: maria.gonzalez@empresa.com" required>
+                </div>
+                <button type="submit" id="btn-unlock" class="btn-primary btn-block">
+                    Ingresar <i class="fa-solid fa-unlock-keyhole"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ==================== CONTENIDO DEL PORTAFOLIO (BORROSO INICIALMENTE) ==================== -->
+    <div id="portfolio-wrapper" class="portfolio-wrapper is-blurred">
+        
+        <!-- HEADER / NAVIGATION -->
+        <header id="main-header" class="main-header">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <span class="logo-text">JPS</span>
+                </a>
+                <nav class="nav-menu" id="nav-menu">
+                    <ul>
+                        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                        <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                        <li><a href="#expertise" class="nav-link">Especialidades</a></li>
+                        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <span id="user-badge" class="user-badge"></span>
+                    <a href="#contacto" class="btn-outline btn-sm">Contactar</a>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menú">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- HERO SECTION -->
+            <section id="inicio" class="hero-section">
+                <div class="container hero-container">
+                    <div class="hero-content animate-fade-in">
+                        <span class="hero-badge">Portafolio Profesional 2026</span>
+                        <h1 class="hero-title">Juan Pablo Sánchez</h1>
+                        <h2 class="hero-subtitle">
+                            <span id="typing-text"></span><span class="cursor">|</span>
+                        </h2>
+                        <p class="hero-description">
+                            Conecto estrategia de negocio, procesos, datos y personas a través de la tecnología, la IA aplicada y experiencias humanas. Me apasiona diseñar e implementar soluciones que transformen la gestión operativa y de talento.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#sobre-mi" class="btn-primary">Sobre Mí <i class="fa-solid fa-user"></i></a>
+                            <a href="#expertise" class="btn-secondary">Especialidades <i class="fa-solid fa-users-gear"></i></a>
+                            <a href="#proyectos" class="btn-secondary">Proyectos <i class="fa-solid fa-diagram-project"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- PREMIUM PHOTO CONTAINER -->
+                    <div class="hero-video animate-fade-in-right">
+                        <div class="profile-photo-container">
+                            <div class="profile-photo-frame">
+                                <div class="profile-photo-glow"></div>
+                                <img src="assets/profile.png" alt="Juan Pablo Sánchez" class="profile-photo-img" id="profile-photo-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SOBRE MÍ / TRAYECTORIA -->
+            <section id="sobre-mi" class="section-padding about-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Sobre Mí</h2>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-info">
+                            <p class="about-lead">
+                                Comencé mi carrera en áreas de mejora de procesos, calidad y operaciones, lo que me dio una base metodológica muy rigurosa en reingeniería, Lean y agilidad. Mi interés en los procesos de cambio me llevó a continuar mi desarrollo en áreas de HR (Talento, HRBP, Desarrollo), descubriendo que la mejor forma de transformar las organizaciones es conectando la tecnología con la adopción humana.
+                            </p>
+                            <p class="about-lead">
+                                Participé en proyectos de transformación y profesionalización de negocio, operaciones y HR. Y a su vez ejecuté y lideré procesos operativos de gran volumen en contextos exigentes y cambiantes.
+                            </p>
+                            <p class="about-lead">
+                                Actualmente me encuentro participando en proyectos de consultoría de forma freelance en <strong>Entropyx</strong> y <strong>Knowment</strong>.
+                            </p>
+                        </div>
+
+                        <!-- VIDEO RESUMEN CARD -->
+                        <div class="about-video-summary">
+                            <div class="video-card-container">
+                                <div class="video-preview-image border-glow-purple">
+                                    <div class="video-glow-effect"></div>
+                                    <div class="video-overlay">
+                                        <button class="play-btn" id="play-video-btn" aria-label="Reproducir video resumen">
+                                            <i class="fa-solid fa-play"></i>
+                                        </button>
+                                        <div class="video-info">
+                                            <h3>Video Resumen</h3>
+                                            <p>Conocé más sobre mi perfil en 2 minutos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MI TRAYECTORIA LABORAL (DASHBOARD) -->
+                    <div class="career-timeline-container">
+                        <div class="section-header-compact">
+                            <span class="timeline-badge">Trayectoria</span>
+                            <h3 class="timeline-section-title">Mi evolución profesional</h3>
+                            <p class="timeline-section-subtitle">Navegá por mi historia laboral y descubrí las métricas, herramientas y logros clave en cada etapa.</p>
+                        </div>
+                        
+                        <div class="career-dashboard">
+                            <!-- Left Side: Nav Track -->
+                            <div class="career-nav-track" id="career-nav-track">
+                                <!-- Nav buttons populated by JS -->
+                            </div>
+                            
+                            <!-- Right Side: Detail Slide -->
+                            <div class="career-detail-panel" id="career-detail-panel">
+                                <!-- Slide populated by JS with transition -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MI FORMACIÓN, CURSOS Y CERTIFICACIONES -->
+                    <div class="education-section-container">
+                        <h3 class="education-section-title">Mi formación, cursos y certificaciones</h3>
+                        
+                        <div class="education-category-grid" id="education-category-grid">
+                            <!-- Categories populated by JS -->
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ESPECIALIDADES (6 PILARES) -->
+            <section id="expertise" class="section-padding expertise-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Especialidades & Expertise</h2>
+                        <p>Mi propuesta de valor se apoya en seis pilares clave que conectan la estrategia, la eficiencia de procesos con el desarrollo del talento.</p>
+                    </div>
+                    <div class="expertise-grid">
+                        
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                            <h3>Liderazgo y gestión</h3>
+                            <p>Estructuración y gobierno de áreas soft de People, manejo de presupuestos de dirección de RRHH, relaciones laborales e interlocución con sindicatos comerciales y logísticos.</p>
+                            <div class="card-tags">
+                                <span>Dirección HR</span><span>Relaciones Laborales</span><span>Presupuesto</span>
+                            </div>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            <h3>Change Management & Adopción</h3>
+                            <p>Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).</p>
+                            <div class="card-tags">
+                                <span>UAT</span><span>Capacitación</span><span>Enablement</span><span>Adopción</span>
+                            </div>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-list-check"></i></div>
+                            <h3>Project Management & Procesos</h3>
+                            <p>Coordinación de proyectos transversales aplicando metodologías ágiles (Scrum, Kanban, OKRs) y tradicionales. Reingeniería de procesos con modelado BPMN y Lean Six Sigma.</p>
+                            <div class="card-tags">
+                                <span>BPMN</span><span>Scrum</span><span>PMO</span><span>Lean Six Sigma</span>
+                            </div>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                            <h3>Gestión de Talento & HRBP</h3>
+                            <p>Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.</p>
+                            <div class="card-tags">
+                                <span>Nine Box</span><span>Talent Review</span><span>Onboarding</span><span>Coaching</span>
+                            </div>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                            <h3>Automatización & IA</h3>
+                            <p>Diseño y construcción de flujos de trabajo inteligentes con n8n, Make, Zapier y Power Automate. Integración de agentes e IA generativa en la gestión diaria para eliminar tareas repetitivas.</p>
+                            <div class="card-tags">
+                                <span>n8n</span><span>Make</span><span>AI Agents</span><span>API</span>
+                            </div>
+                        </div>
+
+                        <div class="expertise-card">
+                            <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <h3>People Analytics & HRIS</h3>
+                            <p>Desarrollo de tableros de control end-to-end (Power BI, Excel avanzado). Unificación de bases de datos de personas, gobierno de datos y soporte funcional en SuccessFactors y Meta4.</p>
+                            <div class="card-tags">
+                                <span>Power BI</span><span>SQL</span><span>SuccessFactors</span><span>KPIs</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROYECTOS SECTION (9 CATEGORÍAS) -->
+            <section id="proyectos" class="section-padding projects-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Proyectos y Casos</h2>
+                        <p>Explorá los proyectos de consultoría y gestión organizados por especialidad. Hacé clic en cualquier categoría para abrir la subpágina interactiva.</p>
+                    </div>
+
+                    <div class="project-categories-grid">
+                        
+                        <div class="project-category-card" data-category="procesos">
+                            <div class="cat-card-bg p-blue"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            <h3>Procesos y mejora continua</h3>
+                            <p>Reingeniería operativa, Lean, Six Sigma y eliminación de desperdicios en negocio y operaciones.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="servicios">
+                            <div class="cat-card-bg p-purple"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-map"></i></div>
+                            <h3>Diseño de servicios</h3>
+                            <p>Mapeo de interacciones, Service Blueprints y diseño del ecosistema del empleado y cliente.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="sistemas">
+                            <div class="cat-card-bg p-pink"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-desktop"></i></div>
+                            <h3>Implementación y adopción de sistemas</h3>
+                            <p>Migraciones funcionales de HRIS, ERP, CRM y gestión del cambio para usuarios.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="talento">
+                            <div class="cat-card-bg p-green"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-user-plus"></i></div>
+                            <h3>Atracción de Talento y Marca Empleadora</h3>
+                            <p>Búsquedas end-to-end, contratación de volumen y campañas de posicionamiento técnico.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="cultura">
+                            <div class="cat-card-bg p-indigo"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                            <h3>Transformación cultural</h3>
+                            <p>Acompañamiento al cambio en metodologías ágiles, OKRs de negocio y desarrollo de liderazgo.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="aprendizaje">
+                            <div class="cat-card-bg p-yellow"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <h3>Aprendizaje y Desarrollo</h3>
+                            <p>Planes anuales de capacitación, formador de formadores, e-learning y reskilling.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="compensaciones">
+                            <div class="cat-card-bg p-orange"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-wallet"></i></div>
+                            <h3>Compensaciones</h3>
+                            <p>Benchmarks, bandas salariales, modelos variables de incentivos y auditoría de costo laboral.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="analytics">
+                            <div class="cat-card-bg p-teal"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                            <h3>People Analytics</h3>
+                            <p>Construcción de KPIs, reportes y tableros interactivos automatizados con Power BI.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                        <div class="project-category-card" data-category="automatizacion">
+                            <div class="cat-card-bg p-red"></div>
+                            <div class="cat-card-icon"><i class="fa-solid fa-robot"></i></div>
+                            <h3>Automatización & IA</h3>
+                            <p>Conexión de herramientas con n8n/Make, automatización de tareas y desarrollo de agentes.</p>
+                            <span class="cat-card-action">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section id="contacto" class="section-padding contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Contacto</h2>
+                        <p>¿Querés conocer más sobre mi trabajo o conversar sobre una propuesta laboral?</p>
+                    </div>
+
+                    <div class="contact-container">
+                        <div class="contact-info-card">
+                            <h3>Mis Canales</h3>
+                            <p>Podés contactarme de forma directa a través de mi correo o LinkedIn.</p>
+                            <div class="contact-links">
+                                <a href="mailto:juansanchez.zambrana@gmail.com" class="contact-link-item">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <div>
+                                        <span>Email</span>
+                                        <strong>juansanchez.zambrana@gmail.com</strong>
+                                    </div>
+                                </a>
+                                <a href="https://linkedin.com/in/juanpi-sanchez" target="_blank" rel="noopener" class="contact-link-item">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <div>
+                                        <span>LinkedIn</span>
+                                        <strong>linkedin.com/in/juanpi-sanchez</strong>
+                                    </div>
+                                </a>
+                                <div class="contact-link-item">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                    <div>
+                                        <span>Teléfono</span>
+                                        <strong>11-4475-4688</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-card">
+                            <h3>Enviar un Mensaje</h3>
+                            <form id="contact-form" class="contact-form-el">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="contact-name">Nombre</label>
+                                        <input type="text" id="contact-name" placeholder="Tu nombre" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact-email">Email</label>
+                                        <input type="email" id="contact-email" placeholder="Tu email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-message">Mensaje</label>
+                                    <textarea id="contact-message" rows="5" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                                </div>
+                                <button type="submit" class="btn-primary">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="main-footer">
+            <div class="container footer-container">
+                <p>&copy; 2026 Juan Pablo Sánchez. Todos los derechos reservados.</p>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/juanpi-sanchez" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:juansanchez.zambrana@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- ==================== PROYECTOS SUBPAGE FLUID OVERLAY ==================== -->
+    <div id="projects-overlay" class="projects-overlay">
+        <div class="overlay-container">
+            <header class="overlay-header">
+                <div>
+                    <span class="overlay-badge" id="overlay-badge">Proyectos</span>
+                    <h2 id="overlay-title">Categoría Proyectos</h2>
+                </div>
+                <button class="overlay-close-btn" id="overlay-close-btn" aria-label="Cerrar subpágina">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </header>
+            
+            <p id="overlay-desc" class="overlay-desc-text">Descripción de la categoría de proyectos.</p>
+            
+            <div class="overlay-projects-list" id="overlay-projects-list">
+                <!-- Project cards injected dynamically by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== VIDEO PLAYER MODAL ==================== -->
+    <div id="video-modal" class="video-modal">
+        <div class="video-modal-content">
+            <button class="video-close-btn" id="video-close-btn-el" aria-label="Cerrar reproductor">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="video-player-wrapper">
+                <div class="mockup-video-player">
+                    <div class="player-header">
+                        <span class="player-dot red"></span>
+                        <span class="player-dot yellow"></span>
+                        <span class="player-dot green"></span>
+                        <span class="player-title">Video Resumen - Juan Pablo Sánchez</span>
+                    </div>
+                    <div class="player-body" id="player-body">
+                        <div class="presentation-slide animate-pulse" id="slide-content">
+                            <i class="fa-solid fa-circle-user avatar-placeholder"></i>
+                            <h2>Juan Pablo Sánchez</h2>
+                            <p class="role-desc">Resumen Profesional y Formación</p>
+                            <p class="slide-subtitle">Reproducción simulada.</p>
+                        </div>
+                        <video id="local-video-player" class="hidden-player" controls>
+                            <source src="" type="video/mp4">
+                            Tu navegador no soporta el reproductor de video.
+                        </video>
+                    </div>
+                    <div class="player-controls-bar">
+                        <button id="modal-play-btn"><i class="fa-solid fa-play"></i></button>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                        </div>
+                        <span class="time-lbl" id="video-time-lbl">0:00 / 2:15</span>
+                        <button id="modal-mute-btn"><i class="fa-solid fa-volume-high"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>
