@@ -59,7 +59,7 @@
                     <ul>
                         <li><a href="#inicio" class="nav-link active">Inicio</a></li>
                         <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
-                        <li><a href="#expertise" class="nav-link">Especialidades</a></li>
+                        <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
                         <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
                         <li><a href="#contacto" class="nav-link">Contacto</a></li>
                     </ul>
@@ -144,27 +144,6 @@
                         </div>
                     </div>
 
-                    <!-- MI TRAYECTORIA LABORAL (DASHBOARD) -->
-                    <div class="career-timeline-container">
-                        <div class="section-header-compact">
-                            <span class="timeline-badge">Trayectoria</span>
-                            <h3 class="timeline-section-title">Mi evolución profesional</h3>
-                            <p class="timeline-section-subtitle">Navegá por mi historia laboral y descubrí las métricas, herramientas y logros clave en cada etapa.</p>
-                        </div>
-                        
-                        <div class="career-dashboard">
-                            <!-- Left Side: Nav Track -->
-                            <div class="career-nav-track" id="career-nav-track">
-                                <!-- Nav buttons populated by JS -->
-                            </div>
-                            
-                            <!-- Right Side: Detail Slide -->
-                            <div class="career-detail-panel" id="career-detail-panel">
-                                <!-- Slide populated by JS with transition -->
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- MI FORMACIÓN, CURSOS Y CERTIFICACIONES -->
                     <div class="education-section-container">
                         <h3 class="education-section-title">Mi formación, cursos y certificaciones</h3>
@@ -177,67 +156,73 @@
                 </div>
             </section>
 
-            <!-- ESPECIALIDADES (6 PILARES) -->
-            <section id="expertise" class="section-padding expertise-section">
+            <!-- MI EXPERIENCIA EN ORGANIZACIONES (6 PILARES) -->
+            <section id="experiencia" class="section-padding expertise-section">
                 <div class="container">
                     <div class="section-header">
-                        <h2>Especialidades & Expertise</h2>
-                        <p>Mi propuesta de valor se apoya en seis pilares clave que conectan la estrategia, la eficiencia de procesos con el desarrollo del talento.</p>
+                        <h2>Mi experiencia en organizaciones</h2>
+                        <p>Hacé clic en cualquiera de las siguientes áreas para conocer las métricas clave, puestos y organizaciones donde obtuve y apliqué estas experiencias.</p>
                     </div>
-                    <div class="expertise-grid">
+                    <div class="expertise-grid" id="experience-grid">
                         
-                        <div class="expertise-card">
+                        <div class="expertise-card" data-experience="liderazgo">
                             <div class="card-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
-                            <h3>Liderazgo y gestión</h3>
+                            <h3>Liderazgo y Project Management</h3>
                             <p>Estructuración y gobierno de áreas soft de People, manejo de presupuestos de dirección de RRHH, relaciones laborales e interlocución con sindicatos comerciales y logísticos.</p>
                             <div class="card-tags">
-                                <span>Dirección HR</span><span>Relaciones Laborales</span><span>Presupuesto</span>
+                                <span>Dirección HR</span><span>Relaciones Laborales</span><span>Presupuesto</span><span>Project Management</span>
                             </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
-                        <div class="expertise-card">
+                        <div class="expertise-card" data-experience="change">
                             <div class="card-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <h3>Change Management & Adopción</h3>
                             <p>Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).</p>
                             <div class="card-tags">
                                 <span>UAT</span><span>Capacitación</span><span>Enablement</span><span>Adopción</span>
                             </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
-                        <div class="expertise-card">
+                        <div class="expertise-card" data-experience="procesos">
                             <div class="card-icon"><i class="fa-solid fa-list-check"></i></div>
-                            <h3>Project Management & Procesos</h3>
+                            <h3>Diseño de servicios y Procesos</h3>
                             <p>Coordinación de proyectos transversales aplicando metodologías ágiles (Scrum, Kanban, OKRs) y tradicionales. Reingeniería de procesos con modelado BPMN y Lean Six Sigma.</p>
                             <div class="card-tags">
                                 <span>BPMN</span><span>Scrum</span><span>PMO</span><span>Lean Six Sigma</span>
                             </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
-                        <div class="expertise-card">
+                        <div class="expertise-card" data-experience="talento">
                             <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
                             <h3>Gestión de Talento & HRBP</h3>
                             <p>Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.</p>
                             <div class="card-tags">
                                 <span>Nine Box</span><span>Talent Review</span><span>Onboarding</span><span>Coaching</span>
                             </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
-                        <div class="expertise-card">
-                            <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
-                            <h3>Automatización & IA</h3>
-                            <p>Diseño y construcción de flujos de trabajo inteligentes con n8n, Make, Zapier y Power Automate. Integración de agentes e IA generativa en la gestión diaria para eliminar tareas repetitivas.</p>
-                            <div class="card-tags">
-                                <span>n8n</span><span>Make</span><span>AI Agents</span><span>API</span>
-                            </div>
-                        </div>
-
-                        <div class="expertise-card">
+                        <div class="expertise-card" data-experience="analytics">
                             <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
                             <h3>People Analytics & HRIS</h3>
                             <p>Desarrollo de tableros de control end-to-end (Power BI, Excel avanzado). Unificación de bases de datos de personas, gobierno de datos y soporte funcional en SuccessFactors y Meta4.</p>
                             <div class="card-tags">
                                 <span>Power BI</span><span>SQL</span><span>SuccessFactors</span><span>KPIs</span>
                             </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+
+                        <div class="expertise-card" data-experience="automatizacion">
+                            <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                            <h3>Automatización & IA</h3>
+                            <p>Diseño y construcción de flujos de trabajo inteligentes con n8n, Make, Zapier y Power Automate. Integración de agentes e IA generativa en la gestión diaria para eliminar tareas repetitivas.</p>
+                            <div class="card-tags">
+                                <span>n8n</span><span>Make</span><span>AI Agents</span><span>API</span>
+                            </div>
+                            <div class="cat-card-action" style="margin-top: 1.5rem;">Ver métricas y trayectoria <i class="fa-solid fa-arrow-right"></i></div>
                         </div>
 
                     </div>
@@ -357,13 +342,13 @@
                                         <strong>linkedin.com/in/juanpi-sanchez</strong>
                                     </div>
                                 </a>
-                                <div class="contact-link-item">
-                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                <a href="https://wa.me/5491144754688" target="_blank" rel="noopener" class="contact-link-item">
+                                    <i class="fa-brands fa-whatsapp" style="color: #25d366;"></i>
                                     <div>
-                                        <span>Teléfono</span>
+                                        <span>WhatsApp / Teléfono</span>
                                         <strong>11-4475-4688</strong>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
 
@@ -422,6 +407,32 @@
             
             <div class="overlay-projects-list" id="overlay-projects-list">
                 <!-- Project cards injected dynamically by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== EXPERIENCIA SUBPAGE FLUID OVERLAY ==================== -->
+    <div id="experience-overlay" class="projects-overlay">
+        <div class="overlay-container">
+            <header class="overlay-header">
+                <div>
+                    <span class="overlay-badge" id="experience-badge">Experiencia</span>
+                    <h2 id="experience-title">Área de Experiencia</h2>
+                </div>
+                <button class="overlay-close-btn" id="experience-close-btn" aria-label="Cerrar subpágina">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </header>
+            
+            <p id="experience-desc" class="overlay-desc-text">Descripción de la experiencia.</p>
+            
+            <div class="era-metrics-grid" id="experience-metrics-grid">
+                <!-- Dynamically injected KPIs -->
+            </div>
+            
+            <h3 class="era-milestones-title">Trayectoria Asociada</h3>
+            <div class="era-milestones-list" id="experience-roles-list">
+                <!-- Dynamically injected roles -->
             </div>
         </div>
     </div>

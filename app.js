@@ -64,11 +64,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 unlockPortfolio(false); // unlock instantly without animation
             } catch (e) {
                 localStorage.removeItem("portfolioUser");
+                document.body.style.overflow = "hidden"; // lock body scroll
             }
+        } else {
+            document.body.style.overflow = "hidden"; // lock body scroll
         }
     };
 
     const unlockPortfolio = (animate = true) => {
+        document.body.style.overflow = ""; // restore body scroll
         if (animate) {
             gatingOverlay.style.opacity = "0";
             setTimeout(() => {
@@ -343,320 +347,279 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // ==================== CAREER TIMELINE DATA & GENERATION =======    // ==================== CAREER DASHBOARD DATA & GENERATION ====================
-    const careerErasData = {
-        era3: {
-            id: "era3",
-            title: "IA, Datos y Consultoría",
-            period: "2023 - Presente",
-            icon: "fa-robot",
-            desc: "Liderazgo estratégico, automatizaciones avanzadas y analítica de personas en el centro de la toma de decisiones.",
+    // ==================== CAREER TIMELINE DATA & GENERATION =======    // ==================== CAREER DASHBOARD DATA & GENERATION =======    // ==================== EXPERIENCE DATA & OVERLAY GENERATION ====================
+    const experienceData = {
+        liderazgo: {
+            title: "Liderazgo y Project Management",
+            desc: "Estructuración y gobierno de áreas soft de People, manejo de presupuestos de dirección de RRHH, relaciones laborales e interlocución con sindicatos comerciales y logísticos.",
             metrics: [
-                { value: "+600", label: "Ingresos Anuales", detail: "Escalamiento en salud (ASE/Medifé)" },
-                { value: "80%", label: "Screening con IA", detail: "ATS automatizado con GPT-4o" },
-                { value: "-45%", label: "Soporte de HR", detail: "Bot de consultas RAG y flujos n8n" }
+                { value: "+1500", label: "Colaboradores", detail: "Estructura gestionada en Grupo Gire" },
+                { value: "120+", label: "Líderes Capacitados", detail: "Programa HERA de desarrollo directivo" },
+                { value: "6", label: "Reportes Directos", detail: "Liderazgo de equipo en salud y HR" }
             ],
             roles: [
-                {
-                    role: "Consultor en Procesos, IA & Talento",
-                    company: "Entropyx",
-                    period: "May 2026 - Actualidad",
-                    achievements: [
-                        "Diseño y ejecuto proyectos de consultoría en transformación digital de procesos, analítica de datos e IA aplicada a gestión.",
-                        "Construyo automatizaciones personalizadas (n8n, Make, Power Automate, Google Apps Script) para eficientizar flujos operativos.",
-                        "Desarrollé un ATS interno propio potenciado por IA generativa para clasificar perfiles y reducir los tiempos de preselección."
-                    ],
-                    tools: ["n8n", "Make", "IA Generativa", "LLMs (GPT-4o)", "APIs"]
-                },
-                {
-                    role: "Líder de Atracción de Talento",
-                    company: "Grupo Cober",
-                    period: "Ene 2026 - May 2026",
-                    achievements: [
-                        "Coordiné una operación de alta demanda con 80 búsquedas activas y 50 incorporaciones mensuales promedio.",
-                        "Rediseñé el flujo de reclutamiento, priorizando vacantes mediante un tablero ágil en Power BI creado desde cero.",
-                        "Creé una base de datos automatizada y asistida por IA para centralizar la información operativa y reportar a gerencia."
-                    ],
-                    tools: ["Power BI", "Airtable", "n8n", "AI Sourcing"]
-                },
-                {
-                    role: "Consultor de Desarrollo & Negocios",
-                    company: "Knowment",
-                    period: "Jun 2025 - Actualidad",
-                    achievements: [
-                        "Colaboro en el diseño organizacional, propuestas y desarrollo de negocio de consultoría para empresas medianas y grandes.",
-                        "Aporto diagnósticos basados en análisis de procesos de talento, efectividad operativa y change management.",
-                        "Codiseñé programas formativos en liderazgo y talleres de transformación cultural para equipos jerárquicos."
-                    ],
-                    tools: ["Change Management", "Diseño Organizacional", "Formatos Culturales"]
-                },
                 {
                     role: "Jefe de TA & People Analytics",
                     company: "ASE | Medifé | Finochietto",
                     period: "Nov 2023 - Nov 2025",
-                    achievements: [
-                        "Lideré las áreas de Atracción de Talento y People Analytics (6 reportes directos) en un grupo de salud de 3000 colaboradores.",
-                        "Implementé el proceso formal de aprobación de vacantes corporativo y el tablero de control de presupuesto anual.",
-                        "Diseñé y desplegué los tableros unificados de control en Power BI de People Analytics para la toma de decisiones del Comité."
-                    ],
                     tools: ["Power BI", "Power Query", "Excel Avanzado", "Meta4"]
-                }
-            ]
-        },
-        era2: {
-            id: "era2",
-            title: "Gestión de Talento y Agilidad",
-            period: "2019 - 2023",
-            icon: "fa-users-gear",
-            desc: "Liderazgo de equipos soft de People, HRBP de áreas técnicas y adopción de marcos ágiles en estructuras complejas.",
-            metrics: [
-                { value: "120+", label: "Líderes Capacitados", detail: "Programa HERA de coaching directivo" },
-                { value: "-12%", label: "Rotación Voluntaria IT", detail: "Diseño de bandas salariales y beneficios" },
-                { value: "-35%", label: "Time-to-Market IT", detail: "Acompañamiento a células en Emergencias" }
-            ],
-            roles: [
+                },
                 {
                     role: "Jefe de Talento",
                     company: "Grupo Gire",
                     period: "Oct 2021 - May 2023",
-                    achievements: [
-                        "Lideré el área soft de People (~1500 colaboradores, 6 analistas a cargo) gestionando atracción, capacitación y desempeño.",
-                        "Diseñé e implementé la estrategia de potencial con Nine Box y programas insignes como Make It Talent y DevForce.",
-                        "Optimicé el uso de SuccessFactors y el control del presupuesto consolidando indicadores de retorno de inversión de capacitación."
-                    ],
                     tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
                 },
                 {
                     role: "Head of People",
                     company: "ICAP Global",
                     period: "Jun 2023 - Nov 2023",
-                    achievements: [
-                        "Reportando a CEO y CFO, reorganicé e instalé procesos formales de People para una estructura internacional en expansión.",
-                        "Formalicé el onboarding digital, evaluaciones de clima y políticas de compensaciones en mercados LATAM.",
-                        "Brindé asesoría directa como HRBP ejecutivo a directores para el desarrollo de planes de sucesión y clima."
-                    ],
                     tools: ["Onboarding Digital", "Compensaciones", "Planes de Sucesión"]
                 },
                 {
                     role: "IT & Digital Talent Lead",
                     company: "Grupo Gire",
                     period: "May 2021 - Nov 2021",
-                    achievements: [
-                        "Lideré la estrategia de atracción, marca empleadora y formación para el hub de perfiles de tecnología de la compañía.",
-                        "Coordiné un equipo de 2 analistas dedicados en forma exclusiva a búsquedas de nicho digital.",
-                        "Impulsé programas de formación acelerada y reskilling técnico interno para cubrir posiciones complejas."
-                    ],
                     tools: ["Digital Sourcing", "Tech Reskilling", "Tech Branding"]
                 },
                 {
-                    role: "HRBP IT",
-                    company: "Emergencias",
-                    period: "Oct 2020 - May 2021",
-                    achievements: [
-                        "Partner de People para 200 colaboradores y líderes del área de IT, conectando la estrategia de talento con la operación.",
-                        "Actué como referente funcional y focal point de SuccessFactors para optimizar el uso de los módulos del portal de empleados.",
-                        "Acompañé la conformación de células de desarrollo bajo marcos de trabajo ágiles y negociaciones salariales IT."
-                    ],
-                    tools: ["SuccessFactors", "Agile Células", "IT Recruitment"]
+                    role: "Analista de Calidad / Team Leader",
+                    company: "Nextel",
+                    period: "Jun 2010 - Oct 2012",
+                    tools: ["Coaching", "Matrices de Calidad", "NPS"]
+                }
+            ]
+        },
+        change: {
+            title: "Change Management & Adopción",
+            desc: "Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).",
+            metrics: [
+                { value: "100%", label: "Adopción", detail: "Migración exitosa a SuccessFactors y SAP" },
+                { value: "80%", label: "Satisfacción", detail: "Programas de inducción y L&D" },
+                { value: "-35%", label: "Time-to-Market", detail: "Adopción de Scrum en células de IT" }
+            ],
+            roles: [
+                {
+                    role: "Consultor de Desarrollo & Negocios",
+                    company: "Knowment",
+                    period: "Jun 2025 - Actualidad",
+                    tools: ["Change Management", "Diseño Organizacional", "Formatos Culturales"]
                 },
                 {
                     role: "HRBP IT & L&D Lead",
                     company: "Grupo Gire",
                     period: "Oct 2019 - Oct 2020",
-                    achievements: [
-                        "Desempeñé rol dual brindando soporte como partner estratégico a la Dirección de IT durante su cambio a marcos ágiles.",
-                        "Lideré programas de formación técnica y de e-learning, coordinando el diseño de las rutas de aprendizaje.",
-                        "Facilité sesiones de coaching de equipos para destrabar conflictos de comunicación y agilizar la entrega."
-                    ],
                     tools: ["Agile Coaching", "E-learning", "Coaching de Equipos"]
                 },
                 {
                     role: "Especialista en Desarrollo de Talento",
                     company: "Grupo Gire",
                     period: "Ene 2019 - Oct 2019",
-                    achievements: [
-                        "Promovido al área de Personas por mi impacto transversal y base de procesos aplicada al desarrollo organizacional.",
-                        "Coordiné el ciclo anual de evaluación del desempeño, calibraciones de talento y definición de planes de desarrollo (IDP).",
-                        "Lideré formaciones internas y brindé coaching a líderes operativos para fortalecer capacidades internas."
-                    ],
                     tools: ["IDP", "Calibración Desempeño", "Coaching"]
                 },
                 {
-                    role: "IT Freelance Recruiter",
-                    company: "Autónomo",
-                    period: "Ene 2019 - Jun 2022",
-                    achievements: [
-                        "Ejecuté procesos de reclutamiento especializado en perfiles técnicos y digitales (DevOps, QA, Backend, Product Managers).",
-                        "Construí un pipeline calificado para búsquedas de tecnología de carácter urgente en mercados competitivos.",
-                        "Estructuré un modelo propio de seguimiento y reporte periódico para clientes freelance."
-                    ],
-                    tools: ["IT Recruitment", "Sourcing", "Tech Pipeline"]
+                    role: "Analista Ssr. de Procesos",
+                    company: "Swiss Medical Group",
+                    period: "Dic 2015 - May 2016",
+                    tools: ["SuccessFactors", "UAT", "BPMN"]
+                },
+                {
+                    role: "Analista de Aprendizaje",
+                    company: "Tarjeta Naranja",
+                    period: "Dic 2012 - Dic 2013",
+                    tools: ["L&D", "Onboarding", "Indicadores de Aprendizaje"]
                 }
             ]
         },
-        era1: {
-            id: "era1",
-            title: "Eficiencia y Procesos",
-            period: "2010 - 2018",
-            icon: "fa-arrows-spin",
-            desc: "Sólida formación analítica aplicada a la mejora continua, mapeo BPMN, Lean Six Sigma y negociación de cambios operativos.",
+        procesos: {
+            title: "Diseño de servicios y Procesos",
+            desc: "Coordinación de proyectos transversales aplicando metodologías ágiles (Scrum, Kanban, OKRs) y tradicionales. Reingeniería de procesos con modelado BPMN y Lean Six Sigma.",
             metrics: [
-                { value: "-30%", label: "Tiempo de Espera", detail: "Optimización de atención en cajas (Coppel)" },
-                { value: "-25%", label: "Conciliación Diaria", detail: "Reingeniería de Rapipago (Grupo Gire)" },
-                { value: "-18%", label: "Costos Operativos", detail: "Layout logístico y personal (Coppel)" }
+                { value: "-30%", label: "Tiempo de Espera", detail: "Optimización de atención en cajas en Coppel" },
+                { value: "-25%", label: "Conciliación Diaria", detail: "Estandarización de Rapipago" },
+                { value: "-18%", label: "Costos Operativos", detail: "Rediseño de layout logístico en Coppel" }
             ],
             roles: [
                 {
                     role: "Analista Sr. de Procesos",
                     company: "Grupo Gire",
                     period: "May 2016 - Ene 2019",
-                    achievements: [
-                        "Diseñé e implementé procesos operativos para nuevos servicios financieros de Rapipago (retiro de efectivo, cobros con tarjeta).",
-                        "Referente en mejoras del CRM Dynamics y del proyecto de implementación de SAP para administración y finanzas.",
-                        "Documenté y estandaricé políticas transversales entre PMO, Sistemas y el área de Desarrollo Humano."
-                    ],
                     tools: ["SAP", "Dynamics CRM", "BPMN"]
-                },
-                {
-                    role: "Analista Ssr. de Procesos",
-                    company: "Swiss Medical Group",
-                    period: "Dic 2015 - May 2016",
-                    achievements: [
-                        "Acompañé el análisis funcional y relevamiento de requerimientos para migraciones de CRM de atención y SuccessFactors.",
-                        "Diseñé flujos de procesos AS IS / TO BE, documentando procedimientos críticos y elaborando manuales para mitigar la fricción.",
-                        "Brindé soporte funcional y capacitación presencial a usuarios y managers afectados por el cambio de sistemas."
-                    ],
-                    tools: ["SuccessFactors", "UAT", "BPMN"]
                 },
                 {
                     role: "Analista de Mejora Continua",
                     company: "Coppel",
                     period: "Feb 2014 - Dic 2015",
-                    achievements: [
-                        "Lideré proyectos de reingeniería de flujos de atención y procesos de caja física, reduciendo tiempos de espera del cliente.",
-                        "Rediseñé el layout operativo y dimensionamiento de personal del sector de distribución para aumentar la productividad.",
-                        "Participé en la negociación de cambios de procesos de trabajo ante delegados de sindicatos (Comercio y Camioneros)."
-                    ],
                     tools: ["Lean Six Sigma", "BPMN", "Relaciones Laborales"]
+                }
+            ]
+        },
+        talento: {
+            title: "Gestión de Talento & HRBP",
+            desc: "Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.",
+            metrics: [
+                { value: "-12%", label: "Rotación IT", detail: "Diseño de bandas salariales y beneficios" },
+                { value: "+600", label: "Altas Anuales", detail: "Onboarding de personal de salud (ASE/Medifé)" },
+                { value: "100%", label: "Cobertura Nine Box", detail: "Estrategia de potencial y planes de sucesión" }
+            ],
+            roles: [
+                {
+                    role: "Líder de Atracción de Talento",
+                    company: "Grupo Cober",
+                    period: "Ene 2026 - May 2026",
+                    tools: ["Power BI", "Airtable", "n8n", "AI Sourcing"]
                 },
                 {
-                    role: "Analista de Aprendizaje",
-                    company: "Tarjeta Naranja",
-                    period: "Dic 2012 - Dic 2013",
-                    achievements: [
-                        "Diseñé planes anuales de capacitación y desarrollo orientados a alinear los objetivos del negocio con la inducción interna.",
-                        "Responsable del diseño instruccional y facilitación presencial de los programas de onboarding para nuevos ingresantes.",
-                        "Implementé los primeros indicadores cuantitativos de aprendizaje (completitud de rutas de formación y satisfacción)."
-                    ],
-                    tools: ["L&D", "Onboarding", "Indicadores de Aprendizaje"]
+                    role: "Jefe de Talento",
+                    company: "Grupo Gire",
+                    period: "Oct 2021 - May 2023",
+                    tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
                 },
                 {
-                    role: "Analista de Calidad / Team Leader",
-                    company: "Nextel",
-                    period: "Jun 2010 - Oct 2012",
-                    achievements: [
-                        "Lideré el control de calidad de servicio, coaching y capacitación para un equipo de 9 representantes de atención.",
-                        "Diseñé e implementé matrices de evaluación de llamadas y rutinas de feedback individual que mejoraron el NPS del sector.",
-                        "Participé en el programa interno de alto desempeño, rotando por áreas transversales del negocio."
-                    ],
-                    tools: ["Coaching", "Matrices de Calidad", "NPS"]
+                    role: "HRBP IT",
+                    company: "Emergencias",
+                    period: "Oct 2020 - May 2021",
+                    tools: ["SuccessFactors", "Agile Células", "IT Recruitment"]
+                },
+                {
+                    role: "IT Freelance Recruiter",
+                    company: "Autónomo",
+                    period: "Ene 2019 - Jun 2022",
+                    tools: ["IT Recruitment", "Sourcing", "Tech Pipeline"]
+                }
+            ]
+        },
+        analytics: {
+            title: "People Analytics & HRIS",
+            desc: "Desarrollo de tableros de control end-to-end (Power BI, Excel avanzado). Unificación de bases de datos de personas, gobierno de datos y soporte funcional en SuccessFactors y Meta4.",
+            metrics: [
+                { value: "3000+", label: "Colaboradores", detail: "Tablero unificado de People Analytics para Comité" },
+                { value: "100%", label: "Control Presupuestario", detail: "Automatización del proceso anual de gastos de personal" },
+                { value: "UAT exitoso", label: "Soporte Funcional", detail: "Migraciones SuccessFactors en SMG y Gire" }
+            ],
+            roles: [
+                {
+                    role: "Jefe de TA & People Analytics",
+                    company: "ASE | Medifé | Finochietto",
+                    period: "Nov 2023 - Nov 2025",
+                    tools: ["Power BI", "Power Query", "Excel Avanzado", "Meta4"]
+                },
+                {
+                    role: "Jefe de Talento",
+                    company: "Grupo Gire",
+                    period: "Oct 2021 - May 2023",
+                    tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
+                },
+                {
+                    role: "Analista Ssr. de Procesos",
+                    company: "Swiss Medical Group",
+                    period: "Dic 2015 - May 2016",
+                    tools: ["SuccessFactors", "UAT", "BPMN"]
+                }
+            ]
+        },
+        automatizacion: {
+            title: "Automatización & IA",
+            desc: "Diseño y construcción de flujos de trabajo inteligentes con n8n, Make, Zapier y Power Automate. Integración de agentes e IA generativa en la gestión diaria para eliminar tareas repetitivas.",
+            metrics: [
+                { value: "80%", label: "Screening con IA", detail: "Filtro de candidatos por IA en ATS interno" },
+                { value: "-45%", label: "Soporte de HR", detail: "Bot de consultas RAG integrado en Teams" },
+                { value: "-10h", label: "Semanales", detail: "Ahorro de tiempo en administración mediante flujos n8n" }
+            ],
+            roles: [
+                {
+                    role: "Consultor en Procesos, IA & Talento",
+                    company: "Entropyx",
+                    period: "May 2026 - Actualidad",
+                    tools: ["n8n", "Make", "IA Generativa", "LLMs (GPT-4o)", "APIs"]
                 }
             ]
         }
     };
 
-    // Render Career Dashboard Navigation Track & Detail Panel
-    const careerNavTrack = document.getElementById("career-nav-track");
-    const careerDetailPanel = document.getElementById("career-detail-panel");
+    // Experience Overlay Elements
+    const experienceOverlay = document.getElementById("experience-overlay");
+    const experienceTitle = document.getElementById("experience-title");
+    const experienceDesc = document.getElementById("experience-desc");
+    const experienceMetricsGrid = document.getElementById("experience-metrics-grid");
+    const experienceRolesList = document.getElementById("experience-roles-list");
+    const experienceCloseBtn = document.getElementById("experience-close-btn");
 
-    const renderCareerDashboard = (activeEraId) => {
-        if (!careerNavTrack || !careerDetailPanel) return;
+    const experienceCards = document.querySelectorAll(".expertise-card");
+    experienceCards.forEach(card => {
+        card.addEventListener("click", () => {
+            const expKey = card.getAttribute("data-experience");
+            const expData = experienceData[expKey];
+            if (!expData) return;
 
-        // Render Nav buttons
-        const eras = ["era3", "era2", "era1"];
-        careerNavTrack.innerHTML = eras.map(eraId => {
-            const era = careerErasData[eraId];
-            const isActive = eraId === activeEraId ? "active" : "";
-            return `
-                <div class="era-nav-card ${isActive}" data-era="${eraId}">
-                    <div class="era-card-glow"></div>
-                    <span class="era-card-period">${era.period}</span>
-                    <h4><i class="fa-solid ${era.icon} era-icon-inline"></i> ${era.title}</h4>
-                    <p>${era.desc}</p>
-                </div>
-            `;
-        }).join('');
+            // Set text contents
+            if (experienceTitle) experienceTitle.textContent = expData.title;
+            if (experienceDesc) experienceDesc.textContent = expData.desc;
 
-        // Render Active Era details with a clean layout
-        const activeEra = careerErasData[activeEraId];
-        
-        careerDetailPanel.innerHTML = `
-            <div class="era-detail-content">
-                <div class="era-detail-header">
-                    <span class="era-detail-badge">${activeEra.period}</span>
-                    <h3>${activeEra.title}</h3>
-                    <p class="era-detail-summary">${activeEra.desc}</p>
-                </div>
+            // Inject metrics
+            if (experienceMetricsGrid) {
+                experienceMetricsGrid.innerHTML = expData.metrics.map(metric => `
+                    <div class="era-metric-box">
+                        <div class="metric-glow"></div>
+                        <span class="metric-val">${metric.value}</span>
+                        <strong class="metric-lbl">${metric.label}</strong>
+                        <span class="metric-det">${metric.detail}</span>
+                    </div>
+                `).join('');
+            }
 
-                <!-- KPI Metrics Dashboard Grid -->
-                <div class="era-metrics-grid">
-                    ${activeEra.metrics.map(metric => `
-                        <div class="era-metric-box">
-                            <div class="metric-glow"></div>
-                            <span class="metric-val">${metric.value}</span>
-                            <span class="metric-lbl">${metric.label}</span>
-                            <p class="metric-det">${metric.detail}</p>
-                        </div>
-                    `).join('')}
-                </div>
-
-                <!-- Internal Chronological Milestones -->
-                <div class="era-milestones-title">Experiencia y Logros en esta Era</div>
-                <div class="era-milestones-list">
-                    ${activeEra.roles.map(r => `
-                        <div class="era-milestone-item">
-                            <div class="milestone-header">
-                                <div class="milestone-title-area">
-                                    <h4>${r.role}</h4>
-                                    <span class="milestone-company">${r.company}</span>
-                                </div>
-                                <span class="milestone-period">${r.period}</span>
+            // Inject roles list
+            if (experienceRolesList) {
+                experienceRolesList.innerHTML = expData.roles.map(role => `
+                    <div class="era-milestone-item" style="padding: 18px 24px; margin-bottom: 15px;">
+                        <div class="milestone-header" style="margin-bottom: 8px;">
+                            <div class="milestone-title-area">
+                                <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 2px;">${role.role}</h4>
+                                <span class="milestone-company" style="font-size: 0.85rem; font-weight: 600; color: #60a5fa;">${role.company}</span>
                             </div>
-                            <ul class="milestone-achievements">
-                                ${r.achievements.map(ach => `<li>${ach}</li>`).join('')}
-                            </ul>
-                            <div class="milestone-tools">
-                                ${r.tools.map(tool => `<span class="milestone-tool-badge">${tool}</span>`).join('')}
-                            </div>
+                            <span class="milestone-period" style="font-size: 0.8rem; padding: 2px 8px;">${role.period}</span>
                         </div>
-                    `).join('')}
-                </div>
-            </div>
-        `;
+                        <div class="milestone-tools">
+                            ${role.tools.map(tool => `<span class="milestone-tool-badge">${tool}</span>`).join('')}
+                        </div>
+                    </div>
+                `).join('');
+            }
 
-        // Wire click handlers for Era Navigation
-        const cards = careerNavTrack.querySelectorAll(".era-nav-card");
-        cards.forEach(card => {
-            card.addEventListener("click", () => {
-                const selectedEra = card.getAttribute("data-era");
-                // Avoid redundant renders
-                if (selectedEra === activeEraId) return;
-
-                // Animate transition
-                careerDetailPanel.style.opacity = "0";
-                careerDetailPanel.style.transform = "translateY(10px)";
-                
-                setTimeout(() => {
-                    renderCareerDashboard(selectedEra);
-                    careerDetailPanel.style.opacity = "1";
-                    careerDetailPanel.style.transform = "translateY(0)";
-                }, 200);
-            });
+            // Show overlay
+            if (experienceOverlay) {
+                experienceOverlay.style.display = "flex";
+                void experienceOverlay.offsetWidth;
+                experienceOverlay.classList.add("active");
+            }
+            document.body.style.overflow = "hidden";
         });
+    });
+
+    const closeExperienceOverlay = () => {
+        if (experienceOverlay) {
+            experienceOverlay.classList.remove("active");
+            setTimeout(() => {
+                experienceOverlay.style.display = "none";
+                if (!state.unlocked) {
+                    document.body.style.overflow = "hidden";
+                } else {
+                    document.body.style.overflow = "";
+                }
+            }, 500);
+        }
     };
 
-    // Initial render (era3 is selected by default)
-    renderCareerDashboard("era3");
+    if (experienceCloseBtn) {
+        experienceCloseBtn.addEventListener("click", closeExperienceOverlay);
+    }
+    if (experienceOverlay) {
+        experienceOverlay.addEventListener("click", (e) => {
+            if (e.target === experienceOverlay) {
+                closeExperienceOverlay();
+            }
+        });
+    }
 
     // ==================== EDUCATION DATA & GENERATION ====================
     const educationData = [
@@ -765,7 +728,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${cat.items.map(item => `
                         <li class="education-item-row">
                             <h5>${item.title}</h5>
-                            <p>${item.institution} • <strong>${item.status}</strong></p>
+                            <p>${item.institution}${item.status === 'En pausa' ? ' • <strong>En pausa</strong>' : ''}</p>
                         </li>
                     `).join('')}
                 </ul>

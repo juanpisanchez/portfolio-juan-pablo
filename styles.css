@@ -946,6 +946,7 @@ a {
     overflow: hidden;
     box-shadow: var(--shadow-premium);
     transition: var(--transition-smooth);
+    cursor: pointer;
 }
 .expertise-card::after {
     content: '';
