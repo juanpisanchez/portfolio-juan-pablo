@@ -98,10 +98,41 @@ document.addEventListener("DOMContentLoaded", () => {
             const email = document.getElementById("gate-email").value.trim();
 
             if (name && company && email) {
+                const btnUnlock = document.getElementById("btn-unlock");
+                const originalText = btnUnlock.innerHTML;
+                
+                // Show loading state
+                btnUnlock.disabled = true;
+                btnUnlock.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Accediendo...`;
+
                 state.user = { name, company, email };
                 localStorage.setItem("portfolioUser", JSON.stringify(state.user));
                 state.unlocked = true;
-                unlockPortfolio(true);
+
+                // Send access log to Web3Forms
+                fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json"
+                    },
+                    body: JSON.stringify({
+                        access_key: "edd64041-be92-4064-9c5b-c668007fff00",
+                        subject: `Nuevo Acceso: ${name} (${company})`,
+                        from_name: "Portafolio JPS",
+                        name: name,
+                        email: email,
+                        company: company,
+                        message: `El usuario ${name} (${email}) de la empresa ${company} ha ingresado al portafolio.`
+                    })
+                })
+                .then(() => {
+                    unlockPortfolio(true);
+                })
+                .catch(() => {
+                    // Fallback: unlock even if fetch fails due to network issues
+                    unlockPortfolio(true);
+                });
             }
         });
     }
@@ -1019,7 +1050,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // ==================== CONTACT FORM PREMIUM SIMULATION ====================
+    // ==================== CONTACT FORM REAL SUBMIT WITH WEB3FORMS ====================
     const contactForm = document.getElementById("contact-form");
     if (contactForm) {
         contactForm.addEventListener("submit", (e) => {
@@ -1035,17 +1066,47 @@ document.addEventListener("DOMContentLoaded", () => {
                 submitBtn.disabled = true;
                 submitBtn.innerHTML = `<i class="fa-solid fa-circle-notch fa-spin"></i> Enviando...`;
                 
-                setTimeout(() => {
-                    submitBtn.style.background = "#10b981"; // green success color
-                    submitBtn.innerHTML = `<i class="fa-solid fa-check"></i> ¡Mensaje Enviado!`;
-                    contactForm.reset();
+                fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json"
+                    },
+                    body: JSON.stringify({
+                        access_key: "edd64041-be92-4064-9c5b-c668007fff00",
+                        subject: `Nuevo mensaje de contacto: ${name}`,
+                        from_name: "Contacto Portafolio JPS",
+                        name: name,
+                        email: email,
+                        message: message
+                    })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        submitBtn.style.background = "#10b981"; // green success color
+                        submitBtn.innerHTML = `<i class="fa-solid fa-check"></i> ¡Mensaje Enviado!`;
+                        contactForm.reset();
+                    } else {
+                        submitBtn.style.background = "#ef4444"; // red error color
+                        submitBtn.innerHTML = `<i class="fa-solid fa-xmark"></i> Error al enviar`;
+                    }
                     
                     setTimeout(() => {
                         submitBtn.disabled = false;
                         submitBtn.style.background = "";
                         submitBtn.innerHTML = originalText;
                     }, 3000);
-                }, 1500);
+                })
+                .catch(() => {
+                    submitBtn.style.background = "#ef4444";
+                    submitBtn.innerHTML = `<i class="fa-solid fa-xmark"></i> Error de Red`;
+                    setTimeout(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.style.background = "";
+                        submitBtn.innerHTML = originalText;
+                    }, 3000);
+                });
             }
         });
     }
