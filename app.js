@@ -550,7 +550,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const experienceOverlay = document.getElementById("experience-overlay");
     const experienceTitle = document.getElementById("experience-title");
     const experienceDesc = document.getElementById("experience-desc");
-    const experienceMetricsGrid = document.getElementById("experience-metrics-grid");
     const experienceRolesList = document.getElementById("experience-roles-list");
     const experienceCloseBtn = document.getElementById("experience-close-btn");
 
@@ -564,18 +563,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // Set text contents
             if (experienceTitle) experienceTitle.textContent = expData.title;
             if (experienceDesc) experienceDesc.textContent = expData.desc;
-
-            // Inject metrics
-            if (experienceMetricsGrid) {
-                experienceMetricsGrid.innerHTML = expData.metrics.map(metric => `
-                    <div class="era-metric-box">
-                        <div class="metric-glow"></div>
-                        <span class="metric-val">${metric.value}</span>
-                        <strong class="metric-lbl">${metric.label}</strong>
-                        <span class="metric-det">${metric.detail}</span>
-                    </div>
-                `).join('');
-            }
 
             // Inject roles list
             if (experienceRolesList) {
