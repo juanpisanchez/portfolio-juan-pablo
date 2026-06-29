@@ -1648,3 +1648,134 @@ a {
         padding: 1.2rem;
     }
 }
+
+/* ==================== MACRO DASHBOARD & MARQUEE ==================== */
+.macro-dashboard-container {
+    margin-bottom: 50px;
+}
+.macro-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.macro-metric-box {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 24px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    transition: var(--transition-smooth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.macro-metric-box:hover {
+    border-color: var(--border-glow);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.15);
+}
+.macro-metric-val {
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: var(--font-title);
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 12px rgba(96, 165, 250, 0.35));
+    display: block;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+.macro-metric-lbl {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-main);
+    display: block;
+    margin-bottom: 6px;
+}
+.macro-metric-det {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.35;
+}
+
+/* Company Marquee */
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 15px 0;
+    background: rgba(15, 23, 42, 0.2);
+    border-top: 1px solid var(--border-glass);
+    border-bottom: 1px solid var(--border-glass);
+}
+.marquee-container::before,
+.marquee-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+.marquee-container::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-dark), transparent);
+}
+.marquee-container::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-dark), transparent);
+}
+.marquee-content {
+    display: flex;
+    gap: 3rem;
+    width: max-content;
+    animation: scroll-marquee 35s linear infinite;
+}
+.marquee-item {
+    font-family: var(--font-title);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+.marquee-item::after {
+    content: "·";
+    margin-left: 3rem;
+    color: var(--text-glow);
+    font-size: 1.5rem;
+}
+@keyframes scroll-marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-33.33%);
+    }
+}
+
+@media (max-width: 992px) {
+    .macro-dashboard-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .macro-dashboard-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .macro-dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    .macro-metric-val {
+        font-size: 2.2rem;
+    }
+}

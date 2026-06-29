@@ -354,9 +354,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const experienceData = {
         liderazgo: {
             title: "Liderazgo y Project Management",
-            desc: "Estructuración y gobierno de áreas soft de People, manejo de presupuestos de dirección de RRHH, relaciones laborales e interlocución con sindicatos comerciales y logísticos.",
+            desc: "Liderazgo de equipos, gestión de iniciativas, priorización, seguimiento de avances, coordinación de stakeholders y gobierno de procesos en contextos de transformación.",
             metrics: [
-                { value: "7 años", label: "Años de Experiencia", detail: "En roles de coordinación y dirección de equipos" },
+                { value: "10+ años", label: "De experiencia", detail: "Gestionando iniciativas, procesos, stakeholders, equipos o proyectos transversales." },
                 { value: "+1500", label: "Colaboradores", detail: "Estructura gestionada en Grupo Gire" },
                 { value: "120+", label: "Líderes Capacitados", detail: "Programa HERA de desarrollo directivo" },
                 { value: "6", label: "Reportes Directos", detail: "Liderazgo de equipo en salud y HR" }
@@ -395,10 +395,10 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         change: {
-            title: "Change Management & Adopción",
+            title: "Implementación y adopción de sistemas",
             desc: "Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).",
             metrics: [
-                { value: "4+ años", label: "Años de Experiencia", detail: "Acompañando procesos de adopción tecnológica y organizacional" },
+                { value: "9+ años", label: "De experiencia", detail: "Participando en proyectos de implementación, evolución funcional, UAT, capacitación y adopción de sistemas." },
                 { value: "100%", label: "Adopción", detail: "Migración exitosa a SuccessFactors y SAP" },
                 { value: "80%", label: "Satisfacción", detail: "Programas de inducción y L&D" },
                 { value: "-35%", label: "Time-to-Market", detail: "Adopción de Scrum en células de IT" }
@@ -438,9 +438,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         procesos: {
             title: "Diseño de servicios y Procesos",
-            desc: "Coordinación de proyectos transversales aplicando metodologías ágiles (Scrum, Kanban, OKRs) y tradicionales. Reingeniería de procesos con modelado BPMN y Lean Six Sigma.",
+            desc: "Relevamiento, AS IS / TO BE, service blueprint, documentación funcional, mejora continua y diseño de procesos para nuevos servicios, operaciones y áreas de gestión.",
             metrics: [
-                { value: "5 años", label: "Años de Experiencia", detail: "En mejora continua, Lean Six Sigma y BPMN" },
+                { value: "10+ años", label: "De experiencia", detail: "En mejora continua, reingeniería operativa, AS IS / TO BE, documentación funcional, implementación y gestión del cambio." },
                 { value: "-30%", label: "Tiempo de Espera", detail: "Optimización de atención en cajas en Coppel" },
                 { value: "-25%", label: "Conciliación Diaria", detail: "Estandarización de Rapipago" },
                 { value: "-18%", label: "Costos Operativos", detail: "Rediseño de layout logístico en Coppel" }
@@ -450,7 +450,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     role: "Analista Sr. de Procesos",
                     company: "Grupo Gire",
                     period: "May 2016 - Ene 2019",
-                    tools: ["SAP", "Dynamics CRM", "BPMN"]
+                    tools: ["SAP", "Dynamics CRM", "BPMN", "Scrum", "Kanban", "OKRs"]
                 },
                 {
                     role: "Analista de Mejora Continua",
@@ -464,7 +464,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Gestión de Talento & HRBP",
             desc: "Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.",
             metrics: [
-                { value: "6+ años", label: "Años de Experiencia", detail: "En atracción, onboarding y como HRBP IT" },
+                { value: "10+ años", label: "De experiencia", detail: "En procesos de talento, aprendizaje, desarrollo, HRBP, atracción, desempeño y acompañamiento a líderes." },
                 { value: "-12%", label: "Rotación IT", detail: "Diseño de bandas salariales y beneficios" },
                 { value: "+600", label: "Altas Anuales", detail: "Onboarding de personal de salud (ASE/Medifé)" },
                 { value: "100%", label: "Cobertura Nine Box", detail: "Estrategia de potencial y planes de sucesión" }
@@ -498,12 +498,12 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         analytics: {
             title: "People Analytics & HRIS",
-            desc: "Desarrollo de tableros de control end-to-end (Power BI, Excel avanzado). Unificación de bases de datos de personas, gobierno de datos y soporte funcional en SuccessFactors y Meta4.",
+            desc: "Construcción de indicadores, tableros ejecutivos, limpieza y unificación de bases, criterios de lectura, reportería de gestión y soporte funcional en HRIS / HR Tech.",
             metrics: [
-                { value: "4+ años", label: "Años de Experiencia", detail: "Unificando datos y construyendo tableros en Power BI" },
-                { value: "3000+", label: "Colaboradores", detail: "Tablero unificado de People Analytics para Comité" },
-                { value: "100%", label: "Control Presupuestario", detail: "Automatización del proceso anual de gastos de personal" },
-                { value: "UAT exitoso", label: "Soporte Funcional", detail: "Migraciones SuccessFactors en SMG y Gire" }
+                { value: "10+ años", label: "De experiencia", detail: "Trabajando con indicadores, reportes y tableros de gestión." },
+                { value: "2+ años", label: "De liderazgo", detail: "Liderando formalmente People Analytics." },
+                { value: "3000+", label: "Colaboradores", detail: "Tablero unificado de People Analytics para Comité." },
+                { value: "100%", label: "Control Presupuestario", detail: "Automatización del proceso anual de gastos de personal." }
             ],
             roles: [
                 {
@@ -528,9 +528,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         automatizacion: {
             title: "Automatización & IA",
-            desc: "Diseño y construcción de flujos de trabajo inteligentes con n8n, Make, Zapier y Power Automate. Integración de agentes e IA generativa en la gestión diaria para eliminar tareas repetitivas.",
+            desc: "Diseño de soluciones funcionales y técnicas con automatización, IA generativa y herramientas low-code/no-code para ordenar información, mejorar trazabilidad y reducir tareas manuales.",
             metrics: [
-                { value: "3+ años", label: "Años de Experiencia", detail: "Diseñando flujos en n8n/Make e integrando IA" },
+                { value: "2+ años", label: "De experiencia", detail: "Aplicando automatización, IA generativa, low-code/no-code y herramientas digitales a procesos de gestión." },
                 { value: "80%", label: "Screening con IA", detail: "Filtro de candidatos por IA en ATS interno" },
                 { value: "-45%", label: "Soporte de HR", detail: "Bot de consultas RAG integrado en Teams" },
                 { value: "-10h", label: "Semanales", detail: "Ahorro de tiempo en administración mediante flujos n8n" }
@@ -540,7 +540,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     role: "Consultor en Procesos, IA & Talento",
                     company: "Entropyx",
                     period: "May 2026 - Actualidad",
-                    tools: ["n8n", "Make", "IA Generativa", "LLMs (GPT-4o)", "APIs"]
+                    tools: ["n8n", "Make", "IA Generativa", "LLMs (GPT-4o)", "APIs", "Apps Script"]
                 }
             ]
         }
@@ -749,7 +749,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectsData = {
         procesos: {
             title: "Procesos y mejora continua",
-            desc: "Reingeniería operativa, Lean, Six Sigma y eliminación de desperdicios en negocio y operaciones.",
+            desc: "Reingeniería operativa, mejora continua, Lean Six Sigma, rediseño de procesos, documentación funcional e implementación de nuevos modelos de trabajo.",
             projects: [
                 {
                     title: "Reingeniería Operativa de Rapipago (Gire)",
@@ -773,7 +773,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         servicios: {
             title: "Diseño de servicios",
-            desc: "Mapeo de interacciones, Service Blueprints y diseño del ecosistema del empleado y cliente.",
+            desc: "Diseño de nuevos servicios y experiencias operativas, desde blueprints y flujos de usuario hasta requerimientos funcionales e implementación.",
             projects: [
                 {
                     title: "Service Blueprint de Inducción Digital",
@@ -797,7 +797,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         sistemas: {
             title: "Implementación y adopción de sistemas",
-            desc: "Migraciones funcionales de HRIS, ERP, CRM y gestión del cambio para usuarios.",
+            desc: "Implementaciones funcionales, mejoras de sistemas, UAT, capacitación, documentación, soporte a usuarios y gestión del cambio en HRIS, ERP, CRM y ATS.",
             projects: [
                 {
                     title: "Migración e Implementación Funcional de SuccessFactors (Gire)",
@@ -821,7 +821,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         talento: {
             title: "Atracción de Talento y Marca Empleadora",
-            desc: "Búsquedas end-to-end, contratación de volumen y campañas de posicionamiento técnico.",
+            desc: "Procesos de selección end-to-end, operaciones de alta demanda, perfiles críticos, experiencia de candidatos, marca empleadora, ATS, indicadores y mejora de procesos.",
             projects: [
                 {
                     title: "Contratación de Volumen de Perfiles de Salud (ASE/Medifé)",
@@ -845,7 +845,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         cultura: {
             title: "Transformación cultural",
-            desc: "Acompañamiento al cambio en metodologías ágiles, OKRs de negocio y desarrollo de liderazgo.",
+            desc: "Programas de transformación, gestión del cambio, liderazgo, agilidad, OKRs, desarrollo de capacidades y acompañamiento a líderes y equipos.",
             projects: [
                 {
                     title: "Programa HERA de Desarrollo de Líderes (Gire)",
@@ -869,7 +869,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         aprendizaje: {
             title: "Aprendizaje y Desarrollo",
-            desc: "Planes anuales de capacitación, formador de formadores, e-learning y reskilling.",
+            desc: "Programas de aprendizaje, onboarding, liderazgo, formador de formadores, desempeño, potencial, talent review, reskilling, upskilling y rutas de desarrollo.",
             projects: [
                 {
                     title: "Red de Instructores Internos: Formador de Formadores",
@@ -893,7 +893,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         compensaciones: {
             title: "Compensaciones",
-            desc: "Benchmarks, bandas salariales, modelos variables de incentivos y auditoría de costo laboral.",
+            desc: "Participación en benchmarks, análisis de bandas salariales y propuestas de compensación para perfiles críticos, IT y posiciones de liderazgo.",
             projects: [
                 {
                     title: "Estructura de Bandas Salariales para Perfiles de IT (Gire)",
@@ -917,7 +917,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         analytics: {
             title: "People Analytics",
-            desc: "Construcción de KPIs, reportes y tableros interactivos automatizados con Power BI.",
+            desc: "Construcción de indicadores, tableros ejecutivos, reportería, limpieza de bases, criterios de lectura, presupuesto, control de gestión y soporte a decisiones.",
             projects: [
                 {
                     title: "Tableros de Control de Dotación, Ausentismo y Rotación (ASE)",
@@ -941,7 +941,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         automatizacion: {
             title: "Automatización & IA",
-            desc: "Conexión de herramientas con n8n/Make, automatización de tareas y desarrollo de agentes.",
+            desc: "Soluciones con IA generativa, automatización, low-code/no-code y herramientas digitales para ordenar información, mejorar trazabilidad y reducir tareas manuales.",
             projects: [
                 {
                     title: "Simulador de Screening Inteligente de Candidatos (Entropyx)",
