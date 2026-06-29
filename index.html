@@ -501,6 +501,49 @@
         </div>
     </div>
 
+    <!-- ==================== DETALLE DE PROYECTO SUBPAGE FLUID OVERLAY ==================== -->
+    <div id="project-detail-overlay" class="projects-overlay project-detail-overlay" style="z-index: 1200;">
+        <div class="overlay-container">
+            <header class="overlay-header">
+                <div>
+                    <span class="overlay-badge" id="project-detail-badge">Detalle de Proyecto</span>
+                    <h2 id="project-detail-title">Título del Proyecto</h2>
+                </div>
+                <button class="overlay-close-btn" id="project-detail-close-btn" aria-label="Cerrar detalle">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </header>
+            
+            <div class="project-detail-content" style="margin-top: 2rem;">
+                <div class="project-detail-meta" style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-glass);">
+                    <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);"><strong>Organización:</strong> <span id="project-detail-company" style="color: var(--text-main); margin-left: 5px;">Coppel</span></p>
+                    <p style="margin: 0; font-size: 0.95rem; color: var(--text-muted);"><strong>Tipo:</strong> <span id="project-detail-type" style="color: var(--text-main); margin-left: 5px;">Mejora continua</span></p>
+                </div>
+                
+                <p id="project-detail-summary" style="font-size: 1.1rem; color: var(--text-main); line-height: 1.6; margin-bottom: 2rem; font-style: italic; border-left: 3px solid var(--text-glow); padding-left: 15px;">Resumen del proyecto.</p>
+                
+                <div style="margin-bottom: 2.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 1rem; font-family: var(--font-title);">Detalle del Proyecto</h3>
+                    <p id="project-detail-desc" style="color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem; white-space: pre-line;"></p>
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 1rem; font-family: var(--font-title);">Metodologías / Herramientas</h3>
+                    <div id="project-detail-tools" class="card-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                        <!-- Badges -->
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 1rem; font-family: var(--font-title);">Competencias Demostradas</h3>
+                    <div id="project-detail-skills" class="card-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.5rem;">
+                        <!-- Badges -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ==================== EXPERIENCIA SUBPAGE FLUID OVERLAY ==================== -->
     <div id="experience-overlay" class="projects-overlay">
         <div class="overlay-container">
