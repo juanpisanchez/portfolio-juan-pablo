@@ -733,157 +733,173 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Reingeniería logística / routeo",
                 "company": "Coppel",
                 "type": "Mejora continua · Procesos · Operaciones · Logística",
-                "summary": "Proyecto de mejora continua orientado a optimizar criterios de routeo y planificación logística.",
-                "desc": "Participé en un proyecto de mejora de procesos logísticos, trabajando sobre la planificación de rutas, distribución y criterios operativos. El proyecto incluyó relevamiento de necesidades, análisis de variables operativas, rediseño de criterios de routeo y acompañamiento de la implementación.",
+                "what": "Participé en un proyecto de mejora continua orientado a optimizar criterios de routeo, planificación logística y distribución.",
+                "how": "Trabajé sobre el relevamiento del proceso operativo, análisis de variables de demanda, revisión de criterios de asignación de rutas y uso de programación lineal para acompañar decisiones de planificación.",
+                "result": "El proyecto permitió fortalecer el modelo de planificación logística, ordenar criterios operativos y aportar una base más analítica para la asignación de recursos y recorridos.",
                 "tools": [
-                    "Mejora continua",
-                    "análisis de procesos",
                     "Lean Six Sigma",
+                    "mejora continua",
+                    "análisis de procesos",
                     "programación lineal",
-                    "análisis operativo"
+                    "análisis operativo."
                 ],
                 "skills": [
                     "Reingeniería operativa",
-                    "análisis de procesos",
+                    "procesos",
+                    "análisis de datos",
                     "eficiencia operativa",
-                    "documentación",
-                    "implementación"
-                ]
+                    "implementación."
+                ],
+                "summary": "Participé en un proyecto de mejora continua orientado a optimizar criterios de routeo, planificación logística y distribución."
             },
             {
                 "title": "Dimensionamiento operativo en cajas y distribución",
                 "company": "Coppel",
                 "type": "Mejora continua · Procesos · Dimensionamiento operativo",
-                "summary": "Proyecto de análisis y dimensionamiento para mejorar la asignación de recursos en atención en cajas y distribución.",
-                "desc": "Trabajé en proyectos de dimensionamiento operativo para estimar necesidades de recursos en línea de cajas, atención y distribución. El trabajo combinó análisis de demanda, revisión de procesos, criterios de capacidad operativa y propuestas de mejora para la asignación de recursos.",
+                "what": "Participé en proyectos de dimensionamiento operativo para mejorar la asignación de recursos en línea de cajas, atención y distribución.",
+                "how": "Analicé demanda, flujos operativos, capacidad de atención y necesidades de recursos, utilizando criterios de teoría de colas, análisis de procesos e indicadores operativos.",
+                "result": "El trabajo permitió generar criterios más objetivos para dimensionar recursos, mejorar la lectura de capacidad operativa y acompañar decisiones vinculadas a eficiencia y atención.",
                 "tools": [
-                    "Mejora continua",
+                    "Teoría de colas",
+                    "mejora continua",
                     "análisis de procesos",
-                    "teoría de colas",
                     "dimensionamiento operativo",
-                    "indicadores"
+                    "indicadores."
                 ],
                 "skills": [
                     "Análisis operativo",
-                    "mejora continua",
+                    "procesos",
                     "eficiencia",
-                    "capacidad instalada",
-                    "toma de decisiones basada en datos"
-                ]
+                    "datos",
+                    "mejora continua."
+                ],
+                "summary": "Participé en proyectos de dimensionamiento operativo para mejorar la asignación de recursos en línea de cajas, atención y distribución."
             },
             {
                 "title": "Control transaccional",
                 "company": "Grupo Gire",
                 "type": "Procesos · Controles · Operación · Mejora continua",
-                "summary": "Proyecto vinculado al ordenamiento y mejora de controles operativos en procesos transaccionales.",
-                "desc": "Participé desde el rol de procesos en iniciativas asociadas al control transaccional dentro de la operación de Rapipago. El trabajo incluyó relevamiento de circuitos, documentación de procesos, identificación de responsables, controles, puntos críticos y necesidades de articulación entre negocio, operación, sistemas y áreas de soporte.",
+                "what": "Participé en iniciativas de ordenamiento y mejora de procesos vinculados al control transaccional dentro de la operación de Rapipago.",
+                "how": "Relevé circuitos operativos, documenté procesos, identifiqué responsables, puntos críticos, controles y necesidades de articulación entre negocio, operación, sistemas y áreas de soporte.",
+                "result": "El trabajo aportó mayor claridad sobre circuitos operativos, responsabilidades, controles y puntos de seguimiento dentro de procesos transaccionales.",
                 "tools": [
                     "Relevamiento",
                     "AS IS / TO BE",
                     "documentación funcional",
-                    "gestión de procesos",
-                    "controles operativos"
+                    "análisis de procesos",
+                    "controles operativos."
                 ],
                 "skills": [
                     "Procesos",
                     "análisis funcional",
                     "control operativo",
                     "documentación",
-                    "coordinación con stakeholders"
-                ]
+                    "coordinación transversal."
+                ],
+                "summary": "Participé en iniciativas de ordenamiento y mejora de procesos vinculados al control transaccional dentro de la operación de Rapipago."
             },
             {
                 "title": "ABM de agentes",
                 "company": "Grupo Gire",
                 "type": "Procesos · Mejora operativa · Documentación funcional",
-                "summary": "Mejora de procesos vinculados al alta, baja y modificación de agentes.",
-                "desc": "Participé en el relevamiento, análisis y mejora del proceso de alta, baja y modificación de agentes. El trabajo incluyó revisión del circuito operativo, documentación de responsabilidades, puntos de control, interacción entre áreas y necesidades de mejora para facilitar trazabilidad y ejecución.",
+                "what": "Participé en la mejora del proceso de alta, baja y modificación de agentes.",
+                "how": "Relevé el circuito operativo, documenté responsabilidades, puntos de control, áreas involucradas e interacciones necesarias para mejorar trazabilidad y ejecución.",
+                "result": "El proyecto permitió ordenar el proceso, clarificar responsabilidades y mejorar la visibilidad de los pasos necesarios para gestionar altas, bajas y modificaciones de agentes.",
                 "tools": [
                     "Relevamiento",
                     "documentación de procesos",
                     "AS IS / TO BE",
                     "mejora continua",
-                    "controles"
+                    "controles."
                 ],
                 "skills": [
-                    "Análisis de procesos",
+                    "Procesos",
                     "documentación",
                     "mejora operativa",
                     "trazabilidad",
-                    "articulación entre áreas"
-                ]
+                    "articulación entre áreas."
+                ],
+                "summary": "Participé en la mejora del proceso de alta, baja y modificación de agentes."
             },
             {
                 "title": "Tercerización del SAC",
                 "company": "Grupo Gire",
                 "type": "Procesos · Operaciones · Gestión del cambio",
-                "summary": "Proyecto de tercerización del servicio de atención al cliente, con foco en procesos, implementación y transferencia operativa.",
-                "desc": "Participé en el proyecto de tercerización del SAC desde la mirada de procesos. El trabajo incluyó relevamiento, documentación de circuitos, definición de roles, responsabilidades, criterios operativos y acompañamiento de la implementación para facilitar la transición del servicio.",
+                "what": "Participé desde la mirada de procesos en el proyecto de tercerización del servicio de atención al cliente.",
+                "how": "Relevé circuitos, documenté procesos, definí roles, responsabilidades, criterios operativos y necesidades de transferencia de conocimiento para acompañar la transición del servicio.",
+                "result": "El proyecto permitió ordenar la transición operativa, facilitar la transferencia de conocimiento y dejar definidos procesos y responsabilidades para el nuevo esquema de atención.",
                 "tools": [
                     "Relevamiento",
                     "documentación funcional",
                     "gestión del cambio",
                     "procesos operativos",
-                    "transferencia de conocimiento"
+                    "transferencia de conocimiento."
                 ],
                 "skills": [
                     "Procesos",
                     "gestión del cambio",
-                    "coordinación",
                     "documentación",
-                    "implementación operativa"
-                ]
+                    "implementación operativa",
+                    "coordinación."
+                ],
+                "summary": "Participé desde la mirada de procesos en el proyecto de tercerización del servicio de atención al cliente."
             },
             {
                 "title": "Gobierno de procesos, políticas e iniciativas",
                 "company": "Grupo Gire",
                 "type": "Gobierno de procesos · Políticas · PMO · Mejora continua",
-                "summary": "Participación en la definición de políticas y procesos transversales para ordenar iniciativas, proyectos y prácticas organizacionales.",
-                "desc": "Fui referente del equipo en mejora continua de procesos y políticas vinculadas a servicios de Rapipago y áreas transversales como Desarrollo Humano, PMO y Sistemas. Participé en la construcción y documentación de políticas para ordenar criterios, responsabilidades y circuitos de trabajo.<br><br><strong>Políticas de gestión de proyectos e iniciativas:</strong><ul><li>Gestión de iniciativas y anteproyectos.</li><li>Gestión de proyectos.</li><li>PMO.</li></ul><strong>Políticas de Desarrollo Humano / RRHH:</strong><ul><li>Reclutamiento y selección.</li><li>Comunicación interna.</li><li>Formación interna.</li><li>Teletrabajo.</li></ul><strong>Políticas operativas y de negocio:</strong><ul><li>Categorización de sucursales y agentes.</li><li>Administración de obras sociales.</li></ul>",
+                "what": "Participé en la definición, documentación y ordenamiento de políticas y procesos transversales vinculados a iniciativas, proyectos, áreas de soporte y operación.",
+                "how": "Trabajé con áreas como Desarrollo Humano, PMO, Sistemas y áreas operativas, relevando prácticas existentes, documentando criterios, circuitos, responsabilidades y necesidades de gobierno. Agrupar dentro del detalle estas categorías de políticas: Políticas de gestión de proyectos e iniciativas: * Gestión de iniciativas y anteproyectos. * Gestión de proyectos. * PMO. Políticas de Desarrollo Humano / RRHH: * Reclutamiento y selección. * Comunicación interna. * Formación interna. * Teletrabajo. Políticas operativas y de negocio: * Categorización de sucursales y agentes. * Administración de obras sociales.",
+                "result": "El trabajo permitió estandarizar criterios, ordenar circuitos de trabajo, clarificar responsabilidades y fortalecer el gobierno de procesos e iniciativas transversales.",
                 "tools": [
                     "Documentación de procesos",
                     "políticas",
                     "gobierno de iniciativas",
                     "mejora continua",
                     "PMO",
-                    "gestión de stakeholders"
+                    "gestión de stakeholders."
                 ],
                 "skills": [
                     "Gobierno de procesos",
                     "documentación",
                     "estandarización",
                     "mejora continua",
-                    "articulación transversal"
-                ]
+                    "articulación transversal."
+                ],
+                "summary": "Participé en la definición, documentación y ordenamiento de políticas y procesos transversales vinculados a iniciativas, proyectos, áreas de soporte y operación."
             },
             {
                 "title": "Rediseño del modelo operativo de Atracción de Talento",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Procesos · Transformación de área · Gobierno de demanda",
-                "summary": "Rediseño del modelo operativo de Empleos hacia una función integral de Atracción de Talento.",
-                "desc": "Lideré la evolución del modelo operativo de Empleos hacia Atracción de Talento, fortaleciendo gobierno de demanda, priorización, criterios de seguimiento, relación con líderes y trazabilidad del proceso. El proyecto incluyó ordenamiento de solicitudes, estados, indicadores, rutinas de seguimiento y articulación con HRBPs y líderes.",
+                "what": "Lideré la evolución del modelo operativo de Empleos hacia una función integral de Atracción de Talento.",
+                "how": "Ordené solicitudes, estados, prioridades, rutinas de seguimiento, indicadores, uso de ATS y articulación con HRBPs y líderes. También trabajé sobre gobierno de demanda, trazabilidad y mejora del vínculo con las áreas internas.",
+                "result": "El área ganó mayor orden operativo, visibilidad de la demanda, trazabilidad del proceso y mejores condiciones para gestionar conversaciones con líderes y HRBPs.",
                 "tools": [
                     "Rediseño de procesos",
                     "indicadores",
                     "tableros",
                     "gobierno de demanda",
                     "seguimiento operativo",
-                    "gestión de stakeholders"
+                    "ATS",
+                    "gestión de stakeholders."
                 ],
                 "skills": [
                     "Transformación de procesos",
-                    "liderazgo de equipo",
+                    "liderazgo",
                     "priorización",
                     "operación de alta demanda",
-                    "gestión con líderes"
-                ]
+                    "gestión con líderes."
+                ],
+                "summary": "Lideré la evolución del modelo operativo de Empleos hacia una función integral de Atracción de Talento."
             },
             {
                 "title": "Transformación de Selección y gestión de demanda",
                 "company": "Grupo Cober",
                 "type": "Procesos · Talent Operations · Mejora continua · Datos",
-                "summary": "Ordenamiento del proceso de selección en una operación de alta demanda, incorporando tableros, prioridades y criterios de seguimiento.",
-                "desc": "Lideré la transformación operativa del área de Selección de Grupo Cober, en un contexto de aproximadamente 80 vacantes activas mensuales, 50 cierres mensuales promedio y time to fill cercano a 30 días. El proyecto incluyó mejora de flujos de trabajo, criterios de priorización, seguimiento de demanda, tableros de gestión y mayor visibilidad para conversaciones con líderes.",
+                "what": "Lideré la transformación operativa del área de Selección de Grupo Cober, en una operación de alta demanda.",
+                "how": "Ordené flujos de trabajo, prioridades, seguimiento de vacantes, tableros de gestión, criterios de demanda y uso de información para conversaciones con líderes.",
+                "result": "El área llegó a gestionar aproximadamente 80 vacantes activas mensuales, 50 cierres mensuales promedio y un time to fill cercano a 30 días, con mayor visibilidad de la operación y mejores herramientas para la toma de decisiones.",
                 "tools": [
                     "Gestión de procesos",
                     "tableros",
@@ -891,7 +907,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "priorización",
                     "seguimiento operativo",
                     "IA generativa",
-                    "automatización"
+                    "automatización."
                 ],
                 "skills": [
                     "Procesos",
@@ -899,8 +915,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     "datos",
                     "automatización",
                     "gestión de demanda",
-                    "mejora continua"
-                ]
+                    "mejora continua. =================================================="
+                ],
+                "summary": "Lideré la transformación operativa del área de Selección de Grupo Cober, en una operación de alta demanda."
             }
         ]
     },
@@ -912,170 +929,186 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "RapiEntrega / logística inversa",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Logística inversa · Implementación",
-                "summary": "Diseño e implementación de procesos para un nuevo servicio de logística inversa dentro del ecosistema Rapipago.",
-                "desc": "Participé desde el área de procesos en el diseño e implementación de RapiEntrega / logística inversa. El trabajo incluyó participación desde la idea y diseño del servicio hasta su implementación, coordinando sesiones de relevamiento, service blueprint, experiencia de usuario, procesos operativos, requerimientos funcionales, documentación, capacitación y acompañamiento a áreas impactadas.",
+                "what": "Participé en el diseño e implementación de RapiEntrega / logística inversa dentro del ecosistema Rapipago.",
+                "how": "Trabajé desde la idea y diseño del servicio hasta su implementación, coordinando relevamientos, service blueprint, experiencia de usuario, procesos operativos, requerimientos funcionales, documentación, capacitación y acompañamiento a áreas impactadas.",
+                "result": "El proyecto permitió transformar una necesidad de negocio en un servicio operativo, con procesos, roles, requerimientos y criterios de implementación definidos.",
                 "tools": [
                     "Service blueprint",
                     "AS IS / TO BE",
                     "documentación funcional",
                     "relevamiento",
                     "gestión del cambio",
-                    "capacitación"
+                    "capacitación."
                 ],
                 "skills": [
                     "Diseño de servicios",
                     "procesos",
                     "análisis funcional",
                     "implementación",
-                    "coordinación transversal"
-                ]
+                    "coordinación transversal."
+                ],
+                "summary": "Participé en el diseño e implementación de RapiEntrega / logística inversa dentro del ecosistema Rapipago."
             },
             {
                 "title": "RapiTrámite",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Implementación operativa",
-                "summary": "Participación en el diseño e implementación de procesos para un nuevo servicio de Rapipago.",
-                "desc": "Participé en el proyecto RapiTrámite desde la mirada de procesos, acompañando relevamientos, definición de circuitos operativos, documentación funcional, roles, controles, interacción con sistemas y áreas impactadas para facilitar la implementación del nuevo servicio.",
+                "what": "Participé en el diseño de procesos e implementación operativa de RapiTrámite.",
+                "how": "Acompañé relevamientos, definición de circuitos operativos, documentación funcional, roles, controles, interacción con sistemas y áreas impactadas.",
+                "result": "El proyecto permitió ordenar el circuito operativo del servicio, facilitar su implementación y alinear a las áreas involucradas sobre roles y responsabilidades.",
                 "tools": [
                     "Relevamiento",
                     "documentación funcional",
                     "diseño de procesos",
                     "AS IS / TO BE",
-                    "implementación"
+                    "implementación."
                 ],
                 "skills": [
                     "Diseño de procesos",
                     "nuevos servicios",
                     "coordinación",
                     "documentación",
-                    "gestión del cambio"
-                ]
+                    "gestión del cambio."
+                ],
+                "summary": "Participé en el diseño de procesos e implementación operativa de RapiTrámite."
             },
             {
                 "title": "RapiPOS",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Implementación",
-                "summary": "Participación en el diseño e implementación de procesos para un nuevo modelo de servicio dentro de Rapipago.",
-                "desc": "Participé en el proyecto RapiPOS acompañando la definición de procesos, circuitos operativos, requerimientos funcionales, documentación y gestión del cambio para su implementación. El foco estuvo en traducir la necesidad de negocio en procesos claros, roles, controles y criterios de operación.",
+                "what": "Participé en el diseño e implementación de procesos para RapiPOS.",
+                "how": "Acompañé la definición de circuitos operativos, requerimientos funcionales, documentación, roles, controles y gestión del cambio para su implementación.",
+                "result": "El proyecto permitió traducir una necesidad de negocio en procesos claros, criterios operativos y documentación funcional para facilitar la adopción del servicio.",
                 "tools": [
                     "Diseño de procesos",
                     "relevamiento",
                     "documentación funcional",
                     "gestión del cambio",
-                    "capacitación"
+                    "capacitación."
                 ],
                 "skills": [
                     "Procesos",
                     "implementación",
                     "análisis funcional",
                     "documentación",
-                    "articulación entre áreas"
-                ]
+                    "articulación entre áreas."
+                ],
+                "summary": "Participé en el diseño e implementación de procesos para RapiPOS."
             },
             {
                 "title": "CashFlow",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Operación",
-                "summary": "Participación desde procesos en el diseño e implementación del proyecto CashFlow.",
-                "desc": "Participé en el proyecto CashFlow desde el rol de procesos, acompañando relevamiento, diseño de circuitos operativos, documentación funcional, definición de roles, controles y articulación con áreas de negocio, sistemas y operación para facilitar la implementación.",
+                "what": "Participé desde procesos en el diseño e implementación del proyecto CashFlow.",
+                "how": "Acompañé relevamiento, diseño de circuitos operativos, documentación funcional, definición de roles, controles y articulación con áreas de negocio, sistemas y operación.",
+                "result": "El proyecto permitió ordenar el flujo operativo del servicio, clarificar responsabilidades y facilitar la implementación con las áreas involucradas.",
                 "tools": [
                     "Relevamiento",
                     "diseño de procesos",
                     "documentación funcional",
                     "AS IS / TO BE",
-                    "gestión del cambio"
+                    "gestión del cambio."
                 ],
                 "skills": [
                     "Procesos",
                     "análisis funcional",
                     "diseño operativo",
                     "documentación",
-                    "implementación"
-                ]
+                    "implementación."
+                ],
+                "summary": "Participé desde procesos en el diseño e implementación del proyecto CashFlow."
             },
             {
                 "title": "Cobranzas y extracciones con débito",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Sistemas · Operación",
-                "summary": "Participación en el diseño e implementación de procesos para cobranzas y extracciones con débito.",
-                "desc": "Participé en el proyecto de cobranzas y extracciones con débito, acompañando la definición de procesos, circuitos operativos, requerimientos funcionales, documentación, controles y coordinación con áreas impactadas para su implementación.",
+                "what": "Participé en el diseño de procesos para cobranzas y extracciones con débito.",
+                "how": "Acompañé la definición de circuitos operativos, requerimientos funcionales, documentación, controles y coordinación con áreas de negocio, operación y sistemas.",
+                "result": "El trabajo permitió dejar definidos procesos, controles y responsabilidades para facilitar la implementación del servicio y su operación posterior.",
                 "tools": [
                     "Relevamiento",
                     "documentación funcional",
                     "análisis de procesos",
                     "controles",
-                    "implementación"
+                    "implementación."
                 ],
                 "skills": [
                     "Diseño de procesos",
                     "análisis funcional",
                     "operación",
                     "sistemas",
-                    "gestión del cambio"
-                ]
+                    "gestión del cambio."
+                ],
+                "summary": "Participé en el diseño de procesos para cobranzas y extracciones con débito."
             },
             {
                 "title": "Prisma Convenios Efectivo",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Implementación operativa",
-                "summary": "Participación en procesos vinculados a Prisma Convenios Efectivo dentro de la unidad de negocio Rapipago.",
-                "desc": "Participé desde procesos en el proyecto Prisma Convenios Efectivo, colaborando en relevamiento, documentación de circuitos, definición de responsabilidades, controles, requerimientos funcionales y acompañamiento a áreas impactadas.",
+                "what": "Participé desde procesos en el proyecto Prisma Convenios Efectivo.",
+                "how": "Colaboré en relevamiento, documentación de circuitos, definición de responsabilidades, controles, requerimientos funcionales y acompañamiento a áreas impactadas.",
+                "result": "El proyecto aportó claridad operativa, documentación funcional y alineamiento entre áreas para facilitar la implementación del servicio.",
                 "tools": [
                     "Relevamiento",
                     "documentación funcional",
                     "procesos operativos",
                     "controles",
-                    "implementación"
+                    "implementación."
                 ],
                 "skills": [
                     "Procesos",
                     "documentación",
                     "análisis funcional",
                     "implementación",
-                    "coordinación transversal"
-                ]
+                    "coordinación transversal."
+                ],
+                "summary": "Participé desde procesos en el proyecto Prisma Convenios Efectivo."
             },
             {
                 "title": "Red solo Débito",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Procesos · Operación",
-                "summary": "Participación en el diseño e implementación de procesos para el servicio Red solo Débito.",
-                "desc": "Participé en el proyecto Red solo Débito desde la mirada de procesos, acompañando el relevamiento, diseño de circuitos, documentación funcional, definición de roles, controles e implementación junto a áreas de negocio, operación y sistemas.",
+                "what": "Participé en el diseño e implementación de procesos para el servicio Red solo Débito.",
+                "how": "Acompañé relevamiento, diseño de circuitos, documentación funcional, definición de roles, controles e implementación junto a áreas de negocio, operación y sistemas.",
+                "result": "El trabajo permitió ordenar el modelo operativo del servicio, documentar el circuito y facilitar la coordinación entre las áreas involucradas.",
                 "tools": [
                     "Diseño de procesos",
                     "relevamiento",
                     "documentación funcional",
                     "controles",
-                    "implementación"
+                    "implementación."
                 ],
                 "skills": [
                     "Procesos",
                     "análisis funcional",
                     "coordinación",
                     "implementación",
-                    "documentación"
-                ]
+                    "documentación."
+                ],
+                "summary": "Participé en el diseño e implementación de procesos para el servicio Red solo Débito."
             },
             {
                 "title": "Smart Boxes",
                 "company": "Grupo Gire",
                 "type": "Diseño de servicios · Innovación operativa · Procesos",
-                "summary": "Participación en el piloto de Smart Boxes, acompañando procesos, documentación e implementación.",
-                "desc": "Participé en el piloto de Smart Boxes desde el rol de procesos, colaborando en el diseño de circuitos operativos, documentación, identificación de áreas impactadas, roles, controles y criterios de implementación.",
+                "what": "Participé en el piloto de Smart Boxes desde el rol de procesos.",
+                "how": "Colaboré en el diseño de circuitos operativos, documentación, identificación de áreas impactadas, definición de roles, controles y criterios de implementación.",
+                "result": "El proyecto permitió estructurar operativamente el piloto, clarificar flujos de trabajo y facilitar la coordinación de áreas para avanzar con la implementación.",
                 "tools": [
                     "Relevamiento",
                     "documentación funcional",
                     "diseño de procesos",
                     "implementación",
-                    "gestión del cambio"
+                    "gestión del cambio."
                 ],
                 "skills": [
                     "Diseño de servicios",
                     "procesos",
                     "innovación operativa",
                     "implementación",
-                    "articulación con stakeholders"
-                ]
+                    "articulación con stakeholders. =================================================="
+                ],
+                "summary": "Participé en el piloto de Smart Boxes desde el rol de procesos."
             }
         ]
     },
@@ -1087,8 +1120,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Evolutivo y escalamiento de Microsoft Dynamics CRM",
                 "company": "Grupo Gire",
                 "type": "CRM · Procesos · Análisis funcional · Implementación",
-                "summary": "Proyecto de evolución y escalamiento de Microsoft Dynamics CRM hacia nuevos usuarios y procesos.",
-                "desc": "Participé en la mejora y escalamiento de Microsoft Dynamics CRM. El sistema ya existía, pero necesitaba evolucionar y ampliar su uso. Mi rol estuvo centrado en procesos: diagnóstico, entrevistas con usuarios clave, documentación AS IS / TO BE, diseño de procesos en Visio, definiciones funcionales con proveedor y Sistemas, seguimiento de implementación y capacitación a nuevos usuarios.",
+                "what": "Participé en la mejora y escalamiento de Microsoft Dynamics CRM hacia nuevos usuarios y procesos.",
+                "how": "Realicé diagnóstico, entrevistas con usuarios clave, documentación AS IS / TO BE, diseño de procesos en Visio, definiciones funcionales con proveedor y Sistemas, seguimiento de implementación y capacitación a nuevos usuarios.",
+                "result": "El proyecto permitió ampliar el uso del CRM, ordenar procesos asociados, mejorar la transferencia de conocimiento y facilitar la adopción por parte de nuevos usuarios.",
                 "tools": [
                     "Microsoft Dynamics CRM",
                     "Visio",
@@ -1096,7 +1130,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "relevamiento funcional",
                     "documentación",
                     "capacitación",
-                    "gestión del cambio"
+                    "gestión del cambio."
                 ],
                 "skills": [
                     "Análisis funcional",
@@ -1104,21 +1138,23 @@ document.addEventListener("DOMContentLoaded", () => {
                     "CRM",
                     "implementación",
                     "capacitación",
-                    "coordinación con Sistemas y proveedores"
-                ]
+                    "coordinación con Sistemas y proveedores."
+                ],
+                "summary": "Participé en la mejora y escalamiento de Microsoft Dynamics CRM hacia nuevos usuarios y procesos."
             },
             {
                 "title": "Implementación SAP en administración, finanzas y recaudaciones",
                 "company": "Grupo Gire",
                 "type": "ERP · Procesos · Implementación funcional · Gestión del cambio",
-                "summary": "Participación desde procesos en la implementación de SAP en áreas administrativas, financieras y de recaudación.",
-                "desc": "Participé en la implementación de SAP vinculada a áreas de administración, finanzas y gestión de recaudaciones. Mi aporte estuvo orientado al relevamiento, documentación de procesos, articulación con áreas usuarias, acompañamiento de cambios operativos y soporte desde la mirada funcional y de procesos.",
+                "what": "Participé desde procesos en la implementación de SAP en áreas de administración, finanzas y recaudaciones.",
+                "how": "Acompañé relevamiento, documentación de procesos, articulación con áreas usuarias, soporte funcional y seguimiento de cambios operativos necesarios para la implementación.",
+                "result": "El proyecto permitió acompañar la adopción de SAP desde la mirada de procesos, facilitando la conexión entre necesidades operativas, usuarios y sistema.",
                 "tools": [
                     "SAP",
                     "relevamiento",
                     "documentación funcional",
                     "procesos administrativos",
-                    "gestión del cambio"
+                    "gestión del cambio."
                 ],
                 "skills": [
                     "Implementación funcional",
@@ -1126,15 +1162,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     "ERP",
                     "usuarios",
                     "documentación",
-                    "adopción"
-                ]
+                    "adopción."
+                ],
+                "summary": "Participé desde procesos en la implementación de SAP en áreas de administración, finanzas y recaudaciones."
             },
             {
                 "title": "SuccessFactors / Meta4 / HR Tech",
                 "company": "Grupo Gire · Swiss Medical Group · Emergencias",
                 "type": "HR Tech · Implementación funcional · Adopción de sistemas",
-                "summary": "Participación en proyectos de implementación, evolución funcional y adopción de sistemas de RRHH.",
-                "desc": "Participé en diferentes iniciativas vinculadas a HR Tech, incluyendo Meta4, SuccessFactors y mejoras funcionales en sistemas de RRHH. Mi rol incluyó relevamiento de necesidades, conexión entre procesos de RRHH y usuarios internos, testing/UAT, soporte funcional, capacitación, documentación, adopción y seguimiento de mejoras.",
+                "what": "Participé en iniciativas de implementación, evolución funcional y adopción de sistemas de RRHH.",
+                "how": "Relevé necesidades, conecté procesos de RRHH con usuarios internos, participé en testing/UAT, soporte funcional, capacitación, documentación, adopción y seguimiento de mejoras.",
+                "result": "Estas iniciativas permitieron mejorar la adopción de sistemas de RRHH, ordenar procesos asociados y acompañar a usuarios en el uso de herramientas tecnológicas de gestión.",
                 "tools": [
                     "SuccessFactors",
                     "Meta4",
@@ -1142,7 +1180,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "UAT/testing",
                     "capacitación a usuarios",
                     "documentación funcional",
-                    "soporte funcional"
+                    "soporte funcional."
                 ],
                 "skills": [
                     "HR Tech",
@@ -1150,22 +1188,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     "adopción",
                     "gestión del cambio",
                     "procesos de RRHH",
-                    "usuarios"
-                ]
+                    "usuarios."
+                ],
+                "summary": "Participé en iniciativas de implementación, evolución funcional y adopción de sistemas de RRHH."
             },
             {
                 "title": "Proceso de aprobación de vacantes en Oracle HCM",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Oracle HCM · Procesos · Gobierno de demanda · Implementación funcional",
-                "summary": "Diseño e implementación del proceso formal de aprobación de vacantes en Oracle HCM.",
-                "desc": "Diseñé e implementé el proceso formal de aprobación de vacantes para ordenar solicitudes, responsables, criterios de validación, estados y seguimiento. El proyecto incluyó definición del flujo, alineamiento con Dirección, HRBPs y líderes, parametrización funcional, testing, puesta en marcha, capacitación a usuarios y seguimiento operativo.",
+                "what": "Diseñé e implementé el proceso formal de aprobación de vacantes en Oracle HCM.",
+                "how": "Definí el flujo de aprobación, responsables, estados, criterios de validación y seguimiento. Alineé el proceso con Dirección, HRBPs y líderes, participé en la configuración funcional, testing, puesta en marcha, capacitación y seguimiento operativo.",
+                "result": "El proyecto permitió formalizar el pedido y aprobación de vacantes, mejorar trazabilidad, ordenar responsabilidades y fortalecer el control de demanda.",
                 "tools": [
                     "Oracle HCM",
                     "flujo de aprobación",
                     "testing/UAT",
                     "capacitación",
                     "procesos",
-                    "gobierno de demanda"
+                    "gobierno de demanda."
                 ],
                 "skills": [
                     "Procesos",
@@ -1173,22 +1213,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     "implementación funcional",
                     "adopción",
                     "gestión con líderes",
-                    "control de demanda"
-                ]
+                    "control de demanda."
+                ],
+                "summary": "Diseñé e implementé el proceso formal de aprobación de vacantes en Oracle HCM."
             },
             {
                 "title": "Adopción y mejora funcional de HiringRoom ATS",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "ATS · Talent Operations · Adopción de sistemas · Procesos",
-                "summary": "Mejora de uso y adopción de HiringRoom como ATS para aumentar trazabilidad del proceso de selección.",
-                "desc": "Impulsé la adopción de HiringRoom para que el proceso de selección tuviera mayor trazabilidad, registro, seguimiento e información para la toma de decisiones. El trabajo incluyó revisión de uso, mejora funcional, entrenamiento al equipo, seguimiento en reuniones, incorporación del uso del ATS en la gestión diaria y conexión con indicadores de selección.",
+                "what": "Impulsé la adopción y mejora funcional de HiringRoom como ATS para aumentar trazabilidad y seguimiento del proceso de selección.",
+                "how": "Revisé el uso del sistema, entrené al equipo, incorporé el ATS en rutinas de gestión, conecté el uso de la herramienta con indicadores y promoví criterios de registro y seguimiento.",
+                "result": "El proceso de selección ganó mayor trazabilidad, mejor registro de información, mayor orden operativo y mejores insumos para seguimiento e indicadores.",
                 "tools": [
                     "HiringRoom",
                     "ATS",
                     "seguimiento operativo",
                     "capacitación",
                     "indicadores",
-                    "mejora de procesos"
+                    "mejora de procesos."
                 ],
                 "skills": [
                     "HR Tech",
@@ -1196,30 +1238,33 @@ document.addEventListener("DOMContentLoaded", () => {
                     "adopción",
                     "indicadores",
                     "liderazgo de equipo",
-                    "mejora continua"
-                ]
+                    "mejora continua."
+                ],
+                "summary": "Impulsé la adopción y mejora funcional de HiringRoom como ATS para aumentar trazabilidad y seguimiento del proceso de selección."
             },
             {
                 "title": "Módulo de capacitación en Oracle HCM",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "HR Tech · Learning · Implementación funcional · Adopción",
-                "summary": "Migración e implementación de gestión de capacitaciones en Oracle HCM.",
-                "desc": "Participé en la migración de capacitaciones desde Moodle hacia Oracle HCM, acompañando la implementación funcional, entrenamiento de usuarios, documentación y adopción del módulo para mejorar la gestión de aprendizaje dentro del ecosistema de sistemas de RRHH.",
+                "what": "Participé en la migración e implementación de la gestión de capacitaciones en Oracle HCM.",
+                "how": "Acompañé la migración desde Moodle, la implementación funcional, entrenamiento de usuarios, documentación, soporte funcional y adopción del módulo.",
+                "result": "El proyecto permitió integrar la gestión de capacitaciones dentro del ecosistema Oracle HCM, mejorando orden, trazabilidad y administración de actividades de aprendizaje.",
                 "tools": [
                     "Oracle HCM",
                     "Moodle",
                     "capacitación a usuarios",
                     "documentación",
                     "soporte funcional",
-                    "gestión del cambio"
+                    "gestión del cambio."
                 ],
                 "skills": [
                     "HR Tech",
                     "Learning",
                     "implementación funcional",
                     "adopción de sistemas",
-                    "capacitación"
-                ]
+                    "capacitación. =================================================="
+                ],
+                "summary": "Participé en la migración e implementación de la gestión de capacitaciones en Oracle HCM."
             }
         ]
     },
@@ -1231,8 +1276,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Profesionalización de Atracción de Talento en operación de alta demanda",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Talent Acquisition · Procesos · Liderazgo · Datos",
-                "summary": "Transformación del modelo de Empleos hacia una función integral de Atracción de Talento.",
-                "desc": "Lideré la profesionalización de Atracción de Talento en una operación de alta demanda, con búsquedas para perfiles masivos, asistenciales, comerciales, IT, staff, jefaturas, gerencias y roles críticos. El proyecto incluyó rediseño del modelo operativo, gobierno de demanda, priorización, indicadores, tableros, uso de ATS, rutinas de seguimiento y mejora del vínculo con líderes y HRBPs.",
+                "what": "Lideré la profesionalización de Atracción de Talento en una operación de alta demanda.",
+                "how": "Rediseñé el modelo operativo, ordené demanda, prioridades, indicadores, tableros, uso de ATS, rutinas de seguimiento y vínculo con líderes y HRBPs.",
+                "result": "El área ganó mayor visibilidad, trazabilidad y capacidad de gestión sobre vacantes, cierres, prioridades y conversaciones con negocio.",
                 "tools": [
                     "Talent Acquisition",
                     "ATS",
@@ -1240,7 +1286,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "tableros",
                     "gobierno de demanda",
                     "priorización",
-                    "seguimiento operativo"
+                    "seguimiento operativo."
                 ],
                 "skills": [
                     "Liderazgo",
@@ -1248,22 +1294,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     "procesos",
                     "datos",
                     "mejora continua",
-                    "gestión con negocio"
-                ]
+                    "gestión con negocio."
+                ],
+                "summary": "Lideré la profesionalización de Atracción de Talento en una operación de alta demanda."
             },
             {
                 "title": "Transformación de Selección, tableros e IA",
                 "company": "Grupo Cober",
                 "type": "Talent Operations · Procesos · Datos · IA",
-                "summary": "Ordenamiento de una operación de selección de alta demanda mediante procesos, tableros e IA aplicada.",
-                "desc": "Lideré la transformación operativa del área de Selección de Grupo Cober, en un contexto de aproximadamente 80 vacantes activas mensuales, 50 cierres mensuales promedio y time to fill cercano a 30 días. El proyecto incluyó mejora de flujos de trabajo, criterios de priorización, seguimiento de demanda, tableros de gestión y mayor visibilidad para conversaciones con líderes.",
+                "what": "Lideré el ordenamiento de una operación de selección de alta demanda mediante procesos, tableros e IA aplicada.",
+                "how": "Implementé tableros de seguimiento, criterios de priorización, mejora de flujos, automatización e IA generativa para ordenar información, reducir dispersión y mejorar conversaciones de gestión con líderes.",
+                "result": "La operación alcanzó aproximadamente 80 vacantes activas mensuales, 50 cierres mensuales promedio y time to fill cercano a 30 días, con mayor visibilidad del proceso y seguimiento de demanda.",
                 "tools": [
                     "Tableros",
                     "IA generativa",
                     "automatización",
                     "seguimiento operativo",
                     "gestión de demanda",
-                    "indicadores"
+                    "indicadores."
                 ],
                 "skills": [
                     "Liderazgo",
@@ -1271,51 +1319,56 @@ document.addEventListener("DOMContentLoaded", () => {
                     "procesos",
                     "datos",
                     "IA",
-                    "mejora continua"
-                ]
+                    "mejora continua."
+                ],
+                "summary": "Lideré el ordenamiento de una operación de selección de alta demanda mediante procesos, tableros e IA aplicada."
             },
             {
                 "title": "Atracción y desarrollo de talento IT / digital",
                 "company": "Grupo Gire",
                 "type": "Talent Acquisition · IT Talent · Marca empleadora · Desarrollo",
-                "summary": "Gestión de talento para áreas IT y digitales, integrando atracción, desarrollo, indicadores y marca empleadora.",
-                "desc": "Lideré la agenda de talento para áreas IT y digitales, con foco en atracción, selección, desarrollo, marca empleadora, indicadores y acciones de reskilling/upskilling. El objetivo fue fortalecer capacidades técnicas internas, mejorar fuentes, pipeline técnico y respuesta a necesidades del negocio.",
+                "what": "Lideré iniciativas de talento para áreas IT y digitales, integrando atracción, selección, desarrollo, indicadores y marca empleadora.",
+                "how": "Trabajé con líderes técnicos, relevé necesidades, acompañé búsquedas de perfiles IT/digitales, fortalecí pipeline, iniciativas de marca empleadora y acciones de desarrollo de talento interno.",
+                "result": "El trabajo permitió fortalecer la respuesta de talento para áreas tecnológicas, conectar atracción con desarrollo y acompañar necesidades críticas del negocio digital.",
                 "tools": [
                     "Recruiting IT",
                     "marca empleadora",
                     "indicadores",
                     "reskilling",
                     "upskilling",
-                    "seguimiento de pipeline"
+                    "seguimiento de pipeline."
                 ],
                 "skills": [
                     "Talent Acquisition",
                     "perfiles IT",
                     "desarrollo de talento",
                     "indicadores",
-                    "gestión con líderes técnicos"
-                ]
+                    "gestión con líderes técnicos."
+                ],
+                "summary": "Lideré iniciativas de talento para áreas IT y digitales, integrando atracción, selección, desarrollo, indicadores y marca empleadora."
             },
             {
                 "title": "Optimización de proveedores de selección",
                 "company": "Grupo Cober",
                 "type": "Talent Operations · Proveedores · Mejora de procesos",
-                "summary": "Revisión y optimización de proveedores de selección para mejorar cobertura y especialización.",
-                "desc": "Relevé proveedores activos de selección y elaboré criterios comparativos vinculados a costo, calidad, velocidad, especialidad, geografía y tecnología. El trabajo permitió proponer cambios, sumar proveedores para búsquedas estratégicas o gerenciales y mejorar condiciones comerciales.",
+                "what": "Relevé y analicé proveedores de selección para mejorar cobertura, especialización y condiciones de servicio.",
+                "how": "Elaboré criterios comparativos vinculados a costo, calidad, velocidad, especialidad, geografía y tecnología. Analicé alternativas y propuse cambios para búsquedas estratégicas o gerenciales.",
+                "result": "El proyecto permitió ordenar la gestión de proveedores, mejorar criterios de selección de partners y ampliar opciones para búsquedas críticas.",
                 "tools": [
                     "Matriz comparativa",
                     "análisis de proveedores",
                     "criterios de evaluación",
                     "negociación",
-                    "gestión de stakeholders"
+                    "gestión de stakeholders."
                 ],
                 "skills": [
                     "Gestión de proveedores",
                     "análisis",
                     "mejora de procesos",
                     "negociación",
-                    "Talent Operations"
-                ]
+                    "Talent Operations. =================================================="
+                ],
+                "summary": "Relevé y analicé proveedores de selección para mejorar cobertura, especialización y condiciones de servicio."
             }
         ]
     },
@@ -1327,67 +1380,73 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Programa ERA de transformación cultural",
                 "company": "Grupo Gire",
                 "type": "Transformación cultural · Cambio organizacional · Talento",
-                "summary": "Participación en programa de transformación cultural con foco en liderazgo, capacidades, talento y nuevos modelos de trabajo.",
-                "desc": "Participé en el Programa ERA, una iniciativa de transformación cultural de Grupo Gire. Mi participación estuvo vinculada al mapeo de líderes, identificación de capacidades, acompañamiento a nuevas formas de trabajo, desarrollo de talento y coordinación de acciones de aprendizaje y cambio asociadas al proceso de transformación.",
+                "what": "Participé en un programa de transformación cultural orientado a liderazgo, capacidades, talento y nuevas formas de trabajo.",
+                "how": "Acompañé mapeo de líderes, identificación de capacidades, iniciativas de aprendizaje, desarrollo de talento y acciones asociadas al proceso de cambio cultural.",
+                "result": "El programa permitió acompañar la evolución cultural de la organización, fortalecer conversaciones sobre talento y capacidades, y apoyar la adopción de nuevas formas de trabajo.",
                 "tools": [
                     "Gestión del cambio",
                     "liderazgo",
                     "mapeo de talento",
                     "capacidades",
                     "agilidad",
-                    "aprendizaje"
+                    "aprendizaje."
                 ],
                 "skills": [
                     "Transformación cultural",
                     "talento",
                     "liderazgo",
                     "cambio",
-                    "desarrollo organizacional"
-                ]
+                    "desarrollo organizacional."
+                ],
+                "summary": "Participé en un programa de transformación cultural orientado a liderazgo, capacidades, talento y nuevas formas de trabajo."
             },
             {
                 "title": "Acompañamiento a estructuras ágiles en IT",
                 "company": "Grupo Gire · Emergencias",
                 "type": "Agilidad · Cambio organizacional · HRBP IT · Talento",
-                "summary": "Acompañamiento a áreas IT en procesos de cambio hacia estructuras ágiles y nuevos modelos de trabajo.",
-                "desc": "Acompañé a líderes IT en procesos de transformación hacia modelos ágiles, participando en conversaciones sobre estructura, células, capacidades necesarias, identificación de talento interno y externo, acompañamiento al cambio y soporte a líderes y equipos durante la transición.",
+                "what": "Acompañé a áreas IT en procesos de cambio hacia estructuras ágiles y nuevos modelos de trabajo.",
+                "how": "Participé en conversaciones sobre estructura, células ágiles, capacidades necesarias, identificación de talento interno y externo, acompañamiento al cambio y soporte a líderes y equipos.",
+                "result": "El trabajo permitió acompañar la transición hacia nuevos modelos de trabajo, clarificar capacidades necesarias y conectar necesidades organizacionales con talento y gestión del cambio.",
                 "tools": [
                     "Agilidad",
                     "estructuras ágiles",
                     "HRBP IT",
                     "coaching",
                     "gestión del cambio",
-                    "mapeo de capacidades"
+                    "mapeo de capacidades."
                 ],
                 "skills": [
                     "Cambio organizacional",
                     "agilidad",
                     "liderazgo",
                     "talento IT",
-                    "acompañamiento a líderes"
-                ]
+                    "acompañamiento a líderes."
+                ],
+                "summary": "Acompañé a áreas IT en procesos de cambio hacia estructuras ágiles y nuevos modelos de trabajo."
             },
             {
                 "title": "Liderazgo, OKRs y desarrollo de capacidades para la transformación",
                 "company": "Grupo Gire",
                 "type": "Liderazgo · OKRs · Desarrollo · Transformación",
-                "summary": "Implementación y acompañamiento de prácticas de liderazgo, objetivos y capacidades para sostener procesos de transformación.",
-                "desc": "Participé en iniciativas vinculadas a liderazgo, OKRs, desempeño y desarrollo de capacidades, acompañando a líderes y equipos en la adopción de nuevas prácticas de gestión. El trabajo integró aprendizaje, desempeño, seguimiento de objetivos, conversaciones de desarrollo y acompañamiento a líderes.",
+                "what": "Participé en iniciativas vinculadas a liderazgo, OKRs, desempeño y desarrollo de capacidades para sostener procesos de transformación.",
+                "how": "Acompañé a líderes y equipos en la adopción de prácticas de gestión, conversaciones de desarrollo, seguimiento de objetivos y conexión entre desempeño, capacidades y transformación.",
+                "result": "El trabajo permitió fortalecer prácticas de liderazgo, gestión por objetivos y desarrollo de capacidades necesarias para acompañar procesos de cambio organizacional.",
                 "tools": [
                     "OKRs",
                     "liderazgo",
                     "desempeño",
                     "aprendizaje",
                     "gestión del cambio",
-                    "acompañamiento a líderes"
+                    "acompañamiento a líderes."
                 ],
                 "skills": [
                     "Liderazgo",
                     "desarrollo organizacional",
                     "transformación",
                     "gestión de objetivos",
-                    "adopción de prácticas"
-                ]
+                    "adopción de prácticas. =================================================="
+                ],
+                "summary": "Participé en iniciativas vinculadas a liderazgo, OKRs, desempeño y desarrollo de capacidades para sostener procesos de transformación."
             }
         ]
     },
@@ -1399,58 +1458,63 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Talent Review, potencial y Nine Box",
                 "company": "Grupo Gire · ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Talent Management · Desarrollo · Potencial · Liderazgo",
-                "summary": "Diseño, facilitación y participación en procesos de Talent Review, evaluación de potencial y Nine Box.",
-                "desc": "Participé y lideré procesos vinculados a mapeo de talento, evaluación de potencial, Talent Review y Nine Box. El trabajo incluyó definiciones metodológicas, acompañamiento a líderes y HRBPs, calibración de talento, lectura de desempeño y potencial, identificación de decisiones de desarrollo y seguimiento.",
+                "what": "Participé y lideré procesos de mapeo de talento, evaluación de potencial, Talent Review y Nine Box.",
+                "how": "Trabajé con definiciones metodológicas, acompañamiento a líderes y HRBPs, calibración de talento, lectura de desempeño y potencial, identificación de decisiones de desarrollo y seguimiento.",
+                "result": "El proceso permitió ordenar conversaciones de talento, identificar perfiles con potencial, mapear necesidades de desarrollo y fortalecer decisiones sobre sucesión y crecimiento interno.",
                 "tools": [
                     "Talent Review",
                     "Nine Box",
                     "potencial",
                     "desempeño",
                     "calibración",
-                    "planes de desarrollo"
+                    "planes de desarrollo."
                 ],
                 "skills": [
                     "Talent Management",
                     "liderazgo",
                     "facilitación",
                     "desarrollo",
-                    "análisis de talento"
-                ]
+                    "análisis de talento."
+                ],
+                "summary": "Participé y lideré procesos de mapeo de talento, evaluación de potencial, Talent Review y Nine Box."
             },
             {
                 "title": "Make IT Talent y DevForce",
                 "company": "Grupo Gire",
                 "type": "Reskilling · Upskilling · Talento IT · Aprendizaje",
-                "summary": "Programas orientados al desarrollo de capacidades tecnológicas internas y formación de talento IT.",
-                "desc": "Participé en iniciativas de reskilling y upskilling como Make IT Talent y DevForce, orientadas a fortalecer capacidades técnicas internas y desarrollar talento para áreas IT/digitales. El trabajo se integró con la agenda de talento, aprendizaje, desarrollo, marca empleadora e indicadores.",
+                "what": "Participé en iniciativas orientadas al desarrollo de capacidades tecnológicas internas y formación de talento IT.",
+                "how": "Conecté necesidades de talento IT con programas de aprendizaje, desarrollo, reskilling/upskilling, marca empleadora e indicadores de seguimiento.",
+                "result": "Las iniciativas permitieron fortalecer capacidades técnicas internas, apoyar la movilidad y desarrollo de talento, y acompañar necesidades de áreas digitales.",
                 "tools": [
                     "Reskilling",
                     "upskilling",
                     "rutas de aprendizaje",
                     "talento IT",
                     "indicadores",
-                    "desarrollo de capacidades"
+                    "desarrollo de capacidades."
                 ],
                 "skills": [
                     "Aprendizaje",
                     "desarrollo",
                     "talento IT",
                     "transformación",
-                    "gestión de programas"
-                ]
+                    "gestión de programas."
+                ],
+                "summary": "Participé en iniciativas orientadas al desarrollo de capacidades tecnológicas internas y formación de talento IT."
             },
             {
                 "title": "Onboarding, desempeño y prácticas de People",
                 "company": "ICAP Global",
                 "type": "People · Desempeño · Onboarding · Profesionalización",
-                "summary": "Ordenamiento y formalización de prácticas de People en una estructura global en crecimiento.",
-                "desc": "Como Head of People, lideré el ordenamiento de procesos de People, incluyendo onboarding, desempeño, desarrollo, comunicaciones, compensaciones básicas y acompañamiento a líderes. El foco estuvo en profesionalizar prácticas de gestión y dar mayor consistencia a procesos internos.",
+                "what": "Como Head of People, lideré el ordenamiento de procesos de People en una estructura global en crecimiento.",
+                "how": "Trabajé sobre onboarding, desempeño, desarrollo, comunicaciones internas, compensaciones básicas y acompañamiento a líderes, con foco en profesionalizar prácticas internas.",
+                "result": "El trabajo permitió dar mayor consistencia a procesos de People, ordenar prácticas de gestión y acompañar el crecimiento organizacional con mayor estructura.",
                 "tools": [
                     "Onboarding",
                     "desempeño",
                     "comunicaciones internas",
                     "acompañamiento a líderes",
-                    "procesos de People"
+                    "procesos de People."
                 ],
                 "skills": [
                     "People Management",
@@ -1458,15 +1522,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     "procesos",
                     "desempeño",
                     "onboarding",
-                    "gestión con dirección"
-                ]
+                    "gestión con dirección."
+                ],
+                "summary": "Como Head of People, lideré el ordenamiento de procesos de People en una estructura global en crecimiento."
             },
             {
                 "title": "Outplacement y empleabilidad en proceso de transición organizacional",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Aprendizaje · Empleabilidad · Transición organizacional",
-                "summary": "Diseño y coordinación de acciones de empleabilidad y outplacement para una unidad de negocio en transición.",
-                "desc": "Lideré el proceso de outplacement para una unidad de negocio afectada por una reestructuración. El proyecto incluyó diseño del proceso, coordinación de talleres, acompañamiento de empleabilidad, CV, LinkedIn, entrevistas, feedback, articulación con equipo interno y luego con proveedor externo por volumen.",
+                "what": "Lideré un proceso de outplacement y empleabilidad para una unidad de negocio en transición organizacional.",
+                "how": "Diseñé el proceso, coordiné talleres, acompañé en CV, LinkedIn, entrevistas y feedback, articulé con equipo interno y luego con proveedor externo por volumen.",
+                "result": "El proyecto permitió brindar acompañamiento estructurado a personas en proceso de transición, ordenar acciones de empleabilidad y sostener una respuesta institucional frente a una situación sensible.",
                 "tools": [
                     "Outplacement",
                     "empleabilidad",
@@ -1475,57 +1541,62 @@ document.addEventListener("DOMContentLoaded", () => {
                     "LinkedIn",
                     "entrevistas",
                     "gestión de proveedores",
-                    "seguimiento"
+                    "seguimiento."
                 ],
                 "skills": [
                     "Aprendizaje",
                     "empleabilidad",
                     "gestión del cambio",
                     "coordinación",
-                    "acompañamiento de personas"
-                ]
+                    "acompañamiento de personas."
+                ],
+                "summary": "Lideré un proceso de outplacement y empleabilidad para una unidad de negocio en transición organizacional."
             },
             {
                 "title": "Formador de Formadores",
                 "company": "Grupo Gire",
                 "type": "Aprendizaje · Desarrollo · Capacitación interna",
-                "summary": "Iniciativa de formación para fortalecer capacidades internas de facilitación y transferencia de conocimiento.",
-                "desc": "Participé en iniciativas de Formador de Formadores dentro de la agenda de aprendizaje y desarrollo, orientadas a fortalecer capacidades internas para facilitar contenidos, transferir conocimiento y acompañar la adopción de prácticas en la organización.",
+                "what": "Participé en iniciativas de formación para fortalecer capacidades internas de facilitación y transferencia de conocimiento.",
+                "how": "Acompañé acciones orientadas a preparar referentes internos para facilitar contenidos, transferir conocimiento y acompañar la adopción de prácticas dentro de la organización.",
+                "result": "El proyecto permitió fortalecer capacidades internas de formación, mejorar la transferencia de conocimiento y apoyar la adopción de prácticas organizacionales.",
                 "tools": [
                     "Train the trainer",
                     "aprendizaje",
                     "facilitación",
                     "capacitación interna",
-                    "desarrollo de capacidades"
+                    "desarrollo de capacidades."
                 ],
                 "skills": [
                     "Learning & Development",
                     "facilitación",
                     "capacitación",
                     "desarrollo interno",
-                    "adopción"
-                ]
+                    "adopción."
+                ],
+                "summary": "Participé en iniciativas de formación para fortalecer capacidades internas de facilitación y transferencia de conocimiento."
             },
             {
                 "title": "Puestos críticos y sucesión",
                 "company": "Grupo Gire",
                 "type": "Talent Management · Sucesión · Desarrollo organizacional",
-                "summary": "Identificación de puestos críticos, análisis de riesgo de cobertura y planificación de sucesión.",
-                "desc": "Lideré initiatives vinculadas a puestos críticos y sucesión, trabajando con matriz de criticidad, riesgo de vacancia, identificación de posibles sucesores, planes de desarrollo y conversaciones con líderes para fortalecer la continuidad de capacidades clave.",
+                "what": "Lideré iniciativas vinculadas a identificación de puestos críticos, riesgo de cobertura y planificación de sucesión.",
+                "how": "Trabajé con matriz de criticidad, riesgo de vacancia, identificación de posibles sucesores, planes de desarrollo y conversaciones con líderes.",
+                "result": "El proyecto permitió ordenar información sobre posiciones críticas, visibilizar riesgos de cobertura y acompañar decisiones de desarrollo y sucesión.",
                 "tools": [
                     "Matriz de criticidad",
                     "sucesión",
                     "puestos críticos",
                     "planes de desarrollo",
-                    "Talent Review"
+                    "Talent Review."
                 ],
                 "skills": [
                     "Talent Management",
                     "sucesión",
                     "liderazgo",
                     "desarrollo",
-                    "planificación de capacidades"
-                ]
+                    "planificación de capacidades. =================================================="
+                ],
+                "summary": "Lideré iniciativas vinculadas a identificación de puestos críticos, riesgo de cobertura y planificación de sucesión."
             }
         ]
     },
@@ -1537,15 +1608,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Análisis de bandas y benchmarks para perfiles IT y liderazgo",
                 "company": "Grupo Gire · Emergencias · ICAP Global · ASE Obra Social · Medifé · Sanatorio Finochietto · Grupo Cober",
                 "type": "Compensaciones · Benchmark · Estructura · Talento",
-                "summary": "Participación transversal en análisis de bandas salariales, benchmarks y propuestas de compensación para perfiles críticos.",
-                "desc": "Participé en iniciativas vinculadas a análisis salarial, benchmarks y definición de criterios de compensación para perfiles IT, críticos y posiciones de liderazgo. Mi rol fue aportar información de mercado desde buscas, necesidades de cobertura, criticidad de perfiles, lectura de negocio, estructura y articulación con referentes de compensaciones, payroll o dirección según el contexto.",
+                "what": "Participé en iniciativas de análisis salarial, benchmarks y criterios de compensación para perfiles IT, críticos y posiciones de liderazgo.",
+                "how": "Aporté información de mercado desde búsquedas, necesidades de cobertura, criticidad de perfiles, lectura de negocio y articulación con referentes de compensaciones, payroll o dirección según el contexto.",
+                "result": "El trabajo permitió aportar información para decisiones de compensación, análisis de competitividad y conversaciones sobre atracción, retención y cobertura de perfiles críticos.",
                 "tools": [
                     "Benchmark salarial",
                     "análisis de bandas",
                     "estructura",
                     "perfiles críticos",
                     "información de mercado",
-                    "articulación con áreas especializadas"
+                    "articulación con áreas especializadas."
                 ],
                 "skills": [
                     "Compensaciones",
@@ -1553,8 +1625,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     "talento",
                     "negocio",
                     "perfiles críticos",
-                    "toma de decisiones"
-                ]
+                    "toma de decisiones. =================================================="
+                ],
+                "summary": "Participé en iniciativas de análisis salarial, benchmarks y criterios de compensación para perfiles IT, críticos y posiciones de liderazgo."
             }
         ]
     },
@@ -1566,8 +1639,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Startup del área de People Analytics",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "People Analytics · Datos · Gobierno de información · Transformación HR",
-                "summary": "Diseño y puesta en marcha del área de People Analytics para la Dirección de Personas.",
-                "desc": "Impulsé el startup de People Analytics, definiendo criterios de análisis, reportería, KPIs, tableros ejecutivos, fuentes de información, responsables, calidad de datos y rutinas de seguimiento. El proyecto permitió instalar una lógica de gestión más basada en datos dentro de la Dirección de Personas.",
+                "what": "Impulsé la puesta en marcha del área de People Analytics para la Dirección de Personas.",
+                "how": "Definí criterios de análisis, reportería, KPIs, tableros ejecutivos, fuentes de información, responsables, calidad de datos y rutinas de seguimiento.",
+                "result": "El proyecto permitió instalar una lógica de gestión más basada en datos dentro de la Dirección de Personas, con mayor orden, visibilidad y soporte para decisiones.",
                 "tools": [
                     "People Analytics",
                     "KPIs",
@@ -1575,7 +1649,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "Power BI",
                     "Excel",
                     "calidad de datos",
-                    "reportería ejecutiva"
+                    "reportería ejecutiva."
                 ],
                 "skills": [
                     "Analytics",
@@ -1583,15 +1657,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     "liderazgo",
                     "transformación HR",
                     "reporting",
-                    "gobierno de información"
-                ]
+                    "gobierno de información."
+                ],
+                "summary": "Impulsé la puesta en marcha del área de People Analytics para la Dirección de Personas."
             },
             {
                 "title": "Tablero integral de indicadores de RRHH",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "People Analytics · BI · Reporting ejecutivo · Control de gestión",
-                "summary": "Construcción de tableros e indicadores integrales de RRHH para seguimiento ejecutivo.",
-                "desc": "Construí tableros e indicadores integrales de RRHH, incluyendo limpieza y unificación de bases, definición de fuentes, responsables, criterios de lectura y reportería ejecutiva. Los indicadores incluyeron dotación, rotación, ausentismo, vacantes, cobertura, tiempos de proceso, desempeño, capacitación, presupuesto y otros datos de gestión.",
+                "what": "Construí tableros e indicadores integrales de RRHH para seguimiento ejecutivo.",
+                "how": "Trabajé sobre limpieza y unificación de bases, definición de fuentes, responsables, criterios de lectura y reportería ejecutiva.",
+                "result": "El proyecto permitió mejorar la visibilidad de indicadores clave como dotación, rotación, ausentismo, vacantes, cobertura, tiempos de proceso, desempeño, capacitación y presupuesto.",
                 "tools": [
                     "Power BI",
                     "Excel",
@@ -1599,7 +1675,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "limpieza de datos",
                     "reporting",
                     "criterios de lectura",
-                    "tableros ejecutivos"
+                    "tableros ejecutivos."
                 ],
                 "skills": [
                     "People Analytics",
@@ -1607,37 +1683,41 @@ document.addEventListener("DOMContentLoaded", () => {
                     "datos",
                     "reporting",
                     "control de gestión",
-                    "soporte a decisiones"
-                ]
+                    "soporte a decisiones."
+                ],
+                "summary": "Construí tableros e indicadores integrales de RRHH para seguimiento ejecutivo."
             },
             {
                 "title": "Presupuesto integral de RRHH y control de gestión",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
                 "type": "Presupuesto · Control de gestión · People Analytics · Reporting",
-                "summary": "Coordinación del presupuesto integral de RRHH y seguimiento de información para control de gestión.",
-                "desc": "Coordiné el presupuesto integral de RRHH, consolidando información de distintas áreas, acompañando validaciones, seguimiento y control de gestión. El trabajo permitió ordenar información presupuestaria, articular con áreas internas y aportar visibilidad para planificación y toma de decisiones.",
+                "what": "Coordiné el presupuesto integral de RRHH y el seguimiento de información para control de gestión.",
+                "how": "Consolidé información de distintas áreas, acompañé validaciones, seguimiento presupuestario, reportería y articulación con referentes internos.",
+                "result": "El trabajo permitió ordenar información presupuestaria, mejorar visibilidad de gestión y aportar información para planificación y toma de decisiones.",
                 "tools": [
                     "Presupuesto",
                     "Excel",
                     "control de gestión",
                     "reportería",
                     "consolidación de información",
-                    "seguimiento"
+                    "seguimiento."
                 ],
                 "skills": [
                     "Control de gestión",
                     "presupuesto",
                     "datos",
                     "coordinación",
-                    "reporting ejecutivo"
-                ]
+                    "reporting ejecutivo."
+                ],
+                "summary": "Coordiné el presupuesto integral de RRHH y el seguimiento de información para control de gestión."
             },
             {
                 "title": "Tableros de gestión de selección",
                 "company": "Grupo Cober",
                 "type": "Talent Analytics · Dashboards · Seguimiento operativo",
-                "summary": "Implementación de tableros para seguimiento de vacantes, estados, aging, carga operativa y performance.",
-                "desc": "Implementé tableros de gestión end-to-end para el área de Selección, incluyendo definición de indicadores, selección de herramienta, diseño de solución, testing, puesta en marcha y capacitación a usuarios. Los tableros facilitaron seguimiento de demanda, prioridades, carga del equipo y conversaciones con líderes.",
+                "what": "Implementé tableros de gestión end-to-end para el área de Selección.",
+                "how": "Definí indicadores, seleccioné herramienta, diseñé la solución, realicé testing, puse en marcha el tablero y capacité a usuarios.",
+                "result": "Los tableros facilitaron seguimiento de demanda, prioridades, carga del equipo, aging de vacantes y conversaciones de gestión con líderes.",
                 "tools": [
                     "Dashboards",
                     "indicadores",
@@ -1645,7 +1725,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "seguimiento operativo",
                     "testing",
                     "capacitación",
-                    "IA/automatización"
+                    "IA/automatización."
                 ],
                 "skills": [
                     "People Analytics",
@@ -1653,36 +1733,40 @@ document.addEventListener("DOMContentLoaded", () => {
                     "indicadores",
                     "procesos",
                     "capacitación",
-                    "adopción"
-                ]
+                    "adopción."
+                ],
+                "summary": "Implementé tableros de gestión end-to-end para el área de Selección."
             },
             {
                 "title": "Indicadores de aprendizaje",
                 "company": "Tarjeta Naranja",
                 "type": "Learning Analytics · Indicadores · Capacitación",
-                "summary": "Implementación temprana de indicadores de aprendizaje y seguimiento de capacitaciones.",
-                "desc": "Formé parte del equipo de Learning & Development, acompañando planes anuales de formación, contenidos, proveedores e indicadores de aprendizaje. Trabajé con indicadores de finalización, tiempos de completitud y satisfacción, conectando capacitación con necesidades del negocio.",
+                "what": "Acompañé la construcción y seguimiento de indicadores de aprendizaje y capacitación.",
+                "how": "Trabajé con planes anuales de formación, contenidos, proveedores, reportes e indicadores como finalización, tiempos de completitud y satisfacción.",
+                "result": "El trabajo permitió conectar actividades de capacitación con información de seguimiento, medición y necesidades del negocio.",
                 "tools": [
                     "Indicadores de aprendizaje",
                     "reportes",
                     "capacitación",
                     "proveedores",
-                    "seguimiento"
+                    "seguimiento."
                 ],
                 "skills": [
                     "Learning Analytics",
                     "capacitación",
                     "indicadores",
                     "reporting",
-                    "gestión de formación"
-                ]
+                    "gestión de formación."
+                ],
+                "summary": "Acompañé la construcción y seguimiento de indicadores de aprendizaje y capacitación."
             },
             {
                 "title": "Control de headcount y estructura",
                 "company": "ASE Obra Social · Medifé · Sanatorio Finochietto · Grupo Cober",
                 "type": "People Analytics · Headcount · Control de gestión · Estructura",
-                "summary": "Implementación de criterios de seguimiento de dotación, estructura y control de demanda.",
-                "desc": "Participé en iniciativas vinculadas al control de headcount, seguimiento de dotación, estructura, crecimiento y demanda de cobertura. El trabajo se conectó con indicadores de RRHH, presupuesto, aprobación de vacantes y conversaciones con líderes para mejorar la visibilidad de la estructura y su evolución.",
+                "what": "Participé en iniciativas vinculadas al control de headcount, seguimiento de dotación, estructura y demanda de cobertura.",
+                "how": "Conecté información de dotación, presupuesto, aprobación de vacantes, estructura e indicadores para mejorar conversaciones con líderes y seguimiento de evolución organizacional.",
+                "result": "El trabajo permitió mejorar la visibilidad de estructura, dotación y demanda, aportando información para decisiones de cobertura y planificación.",
                 "tools": [
                     "Headcount",
                     "dotación",
@@ -1690,15 +1774,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     "indicadores",
                     "control de gestión",
                     "presupuesto",
-                    "reportería"
+                    "reportería."
                 ],
                 "skills": [
                     "People Analytics",
                     "control de gestión",
                     "estructura",
                     "datos",
-                    "soporte a decisiones"
-                ]
+                    "soporte a decisiones. =================================================="
+                ],
+                "summary": "Participé en iniciativas vinculadas al control de headcount, seguimiento de dotación, estructura y demanda de cobertura."
             }
         ]
     },
@@ -1710,15 +1795,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 "title": "Solución web con automatizaciones e IA para gestión de selección",
                 "company": "Grupo Cober",
                 "type": "Automatización · IA · Talent Operations · Dashboards",
-                "summary": "Desarrollo de una solución web para centralizar información y mejorar seguimiento de selección.",
-                "desc": "Desarrollé una solución web con automatizaciones e IA para ordenar información del proceso de selección, centralizar datos, mejorar trazabilidad, facilitar seguimiento operativo y ejecutivo, y reducir dispersión en una operación de alta demanda.",
+                "what": "Desarrollé una solución web con automatizaciones e IA para ordenar información del proceso de selección.",
+                "how": "Diseñé una herramienta para centralizar datos, mejorar trazabilidad, facilitar seguimiento operativo y ejecutivo, y reducir dispersión en una operación de alta demanda.",
+                "result": "La solución permitió mejorar el orden de información, la trazabilidad del proceso, el seguimiento de vacantes y la visibilidad de la operación de selección.",
                 "tools": [
                     "IA generativa",
                     "automatización",
                     "solución web",
                     "tableros",
                     "datos",
-                    "seguimiento operativo"
+                    "seguimiento operativo."
                 ],
                 "skills": [
                     "Automatización",
@@ -1726,15 +1812,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     "procesos",
                     "datos",
                     "Talent Operations",
-                    "diseño funcional"
-                ]
+                    "diseño funcional."
+                ],
+                "summary": "Desarrollé una solución web con automatizaciones e IA para ordenar información del proceso de selección."
             },
             {
                 "title": "IA aplicada a preselección y screening",
                 "company": "Grupo Cober",
                 "type": "IA generativa · Recruiting · Screening · Automatización",
-                "summary": "Aplicación de IA generativa para asistir tareas de preselección y análisis de CVs.",
-                "desc": "Implementé un piloto de IA aplicada a preselección y screening, utilizando GPTs personalizados, prompts, repositorios de CVs y criterios parametrizados para asistir al análisis inicial de candidatos. El objetivo fue acelerar tareas operativas, mejorar consistencia de criterios y apoyar al equipo de selección.",
+                "what": "Implementé un piloto de IA aplicada a preselección y screening.",
+                "how": "Utilicé GPTs personalizados, prompts, repositorios de CVs y criterios parametrizados para asistir el análisis inicial de candidatos.",
+                "result": "El piloto permitió acelerar tareas operativas, mejorar consistencia de criterios y apoyar al equipo de selección en el análisis inicial de perfiles.",
                 "tools": [
                     "ChatGPT",
                     "Claude",
@@ -1742,7 +1830,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "prompts",
                     "Google Sheets",
                     "IA generativa",
-                    "screening"
+                    "screening."
                 ],
                 "skills": [
                     "IA aplicada",
@@ -1750,15 +1838,17 @@ document.addEventListener("DOMContentLoaded", () => {
                     "automatización",
                     "procesos",
                     "capacitación al equipo",
-                    "mejora operativa"
-                ]
+                    "mejora operativa."
+                ],
+                "summary": "Implementé un piloto de IA aplicada a preselección y screening."
             },
             {
                 "title": "ATS propio con automatizaciones e IA",
                 "company": "Entropyx",
                 "type": "Automatización · IA · ATS · Procesos",
-                "summary": "Diseño de un ATS propio como activo operativo inicial para gestionar oportunidades, candidatos y seguimiento.",
-                "desc": "Diseñé un ATS propio durante el lanzamiento de Entropyx como herramienta inicial para gestionar oportunidades, candidatos y seguimiento sin depender de herramientas externas. El proyecto integró mirada de procesos, automatización, trazabilidad, indicadores e IA aplicada a flujos de gestión.",
+                "what": "Diseñé un ATS propio como herramienta inicial para gestionar oportunidades, candidatos y seguimiento.",
+                "how": "Integré lógica de procesos, automatización, trazabilidad, indicadores e IA aplicada a flujos de gestión, usando herramientas low-code/no-code.",
+                "result": "El proyecto permitió contar con una herramienta operativa propia para ordenar información, dar seguimiento a procesos y reducir dependencia de herramientas externas en una etapa inicial.",
                 "tools": [
                     "ATS",
                     "automatización",
@@ -1768,34 +1858,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     "diseño funcional"
                 ],
                 "skills": [
-                    "Diseño funcional",
-                    "automatización",
+                    "Automatización",
                     "IA",
                     "procesos",
-                    "gestión de información",
-                    "HR Tech"
-                ]
-            },
-            {
-                "title": "Evaluación de plataformas de IA para recruiting",
-                "company": "ASE Obra Social · Medifé · Sanatorio Finochietto",
-                "type": "IA · HR Tech · Evaluación funcional · Business case",
-                "summary": "Evaluación de herramientas de IA para procesos de recruiting y mejora de selección.",
-                "desc": "Evalué plataformas de IA aplicadas a recruiting, analizando funcionalidad, impacto potencial, costos, aplicación al proceso de selección y viabilidad de implementación. El trabajo incluyó armado de propuestas y business cases para presentar alternativas de mejora tecnológica.",
-                "tools": [
-                    "Evaluación funcional",
-                    "IA para recruiting",
-                    "HR Tech",
-                    "business case",
-                    "análisis costo/beneficio"
+                    "datos",
+                    "Talent Operations",
+                    "diseño funcional"
                 ],
-                "skills": [
-                    "HR Tech",
-                    "IA",
-                    "análisis funcional",
-                    "evaluación de soluciones",
-                    "mirada de negocio"
-                ]
+                "summary": "Diseñé un ATS propio como herramienta inicial para gestionar oportunidades, candidatos y seguimiento."
             }
         ]
     }
@@ -1871,7 +1941,23 @@ document.addEventListener("DOMContentLoaded", () => {
             if (projectDetailCompany) projectDetailCompany.textContent = proj.company;
             if (projectDetailType) projectDetailType.textContent = proj.type;
             if (projectDetailSummary) projectDetailSummary.textContent = proj.summary;
-            if (projectDetailDesc) projectDetailDesc.innerHTML = proj.desc;
+            
+            // Build structured HTML description addressing the three key questions
+            const detailHtml = `
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: #a78bfa; margin-bottom: 0.4rem; font-family: var(--font-title);">¿Qué hice?</h4>
+                    <p style="color: var(--text-muted); line-height: 1.7; margin: 0; font-size: 0.95rem;">${proj.what}</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: #a78bfa; margin-bottom: 0.4rem; font-family: var(--font-title);">¿Cómo lo hice?</h4>
+                    <p style="color: var(--text-muted); line-height: 1.7; margin: 0; font-size: 0.95rem;">${proj.how}</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h4 style="font-size: 1.05rem; font-weight: 700; color: #a78bfa; margin-bottom: 0.4rem; font-family: var(--font-title);">¿Qué resultados obtuve / qué aporte generó?</h4>
+                    <p style="color: var(--text-muted); line-height: 1.7; margin: 0; font-size: 0.95rem;">${proj.result}</p>
+                </div>
+            `;
+            if (projectDetailDesc) projectDetailDesc.innerHTML = detailHtml;
 
             // Inject tools
             if (projectDetailTools) {
