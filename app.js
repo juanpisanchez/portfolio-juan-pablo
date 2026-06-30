@@ -24,27 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Typing Animation
     const typingTextEl = document.getElementById("typing-text");
-    const roles = ["Transformación y Procesos", "Automatización con IA", "People Analytics", "Gestión de Cambio (UAT)"];
+    const roles = [
+        "Liderazgo y Project Management",
+        "Implementación y adopción de sistemas",
+        "Diseño de servicios y Procesos",
+        "Gestión de Talento & HRBP",
+        "People Analytics & HRIS",
+        "Automatización & IA"
+    ];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
     let typingSpeed = 100;
-
-    // Video Presentation Elements
-    const playVideoBtn = document.getElementById("play-video-btn");
-    const videoModal = document.getElementById("video-modal");
-    const videoCloseBtn = document.getElementById("video-close-btn-el");
-    const slideContent = document.getElementById("slide-content");
-    const modalPlayBtn = document.getElementById("modal-play-btn");
-    const modalMuteBtn = document.getElementById("modal-mute-btn");
-    const progressBarFill = document.getElementById("progress-bar-fill");
-    const videoTimeLbl = document.getElementById("video-time-lbl");
-
-    let isVideoPlaying = false;
-    let isVideoMuted = false;
-    const videoDuration = 135; // 2m 15s in seconds
-    let videoCurrentTime = 0;
-    let simulatedPlaybackInterval = null;
 
     // Projects Overlay Elements
     const categoryCards = document.querySelectorAll(".project-category-card");
@@ -203,152 +194,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // ==================== VIDEOPRESENTACIÓN MODAL ====================
-    const startSimulatedPlayback = () => {
-        isVideoPlaying = true;
-        if (modalPlayBtn) {
-            modalPlayBtn.innerHTML = `<i class="fa-solid fa-pause"></i>`;
-        }
-        
-        if (slideContent) {
-            slideContent.classList.remove("animate-pulse");
-            slideContent.innerHTML = `
-                <i class="fa-solid fa-spinner fa-spin avatar-placeholder"></i>
-                <h2>Juan Pablo Sánchez</h2>
-                <p class="role-desc">Cargando videopresentación...</p>
-            `;
-        }
 
-        setTimeout(() => {
-            if (!isVideoPlaying) return;
-            if (slideContent) {
-                slideContent.innerHTML = `
-                    <div class="video-mock-playing">
-                        <i class="fa-solid fa-user-circle" style="font-size: 5rem; color: #8b5cf6;"></i>
-                        <h3 style="margin-top: 1rem;">Video en Reproducción</h3>
-                        <p style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
-                            "Hola, soy Juan Pablo Sánchez. Mi objetivo es conectar la estrategia de negocio, procesos, datos y personas a través de la tecnología y la IA aplicada..."
-                        </p>
-                        <div class="visualizer" style="display:flex; gap:4px; justify-content:center; margin-top:1.5rem;">
-                            <span class="bar animate-bounce-custom" style="width:4px; height:20px; background:#3b82f6;"></span>
-                            <span class="bar animate-bounce-custom-2" style="width:4px; height:35px; background:#8b5cf6;"></span>
-                            <span class="bar animate-bounce-custom-3" style="width:4px; height:15px; background:#3b82f6;"></span>
-                        </div>
-                    </div>
-                `;
-            }
-            
-            // Add custom animation styles for bounce
-            if (!document.getElementById("custom-bounce-styles")) {
-                const style = document.createElement("style");
-                style.id = "custom-bounce-styles";
-                style.innerHTML = `
-                    @keyframes bounce-custom {
-                        0%, 100% { height: 10px; }
-                        50% { height: 35px; }
-                    }
-                    .animate-bounce-custom { animation: bounce-custom 0.8s infinite ease-in-out; }
-                    .animate-bounce-custom-2 { animation: bounce-custom 0.6s infinite ease-in-out 0.2s; }
-                    .animate-bounce-custom-3 { animation: bounce-custom 0.9s infinite ease-in-out 0.1s; }
-                `;
-                document.head.appendChild(style);
-            }
-        }, 1200);
-
-        simulatedPlaybackInterval = setInterval(() => {
-            if (videoCurrentTime >= videoDuration) {
-                stopSimulatedPlayback();
-                videoCurrentTime = 0;
-                if (progressBarFill) progressBarFill.style.width = "0%";
-                if (videoTimeLbl) videoTimeLbl.textContent = "0:00 / 2:15";
-                return;
-            }
-            videoCurrentTime += 1;
-            const pct = (videoCurrentTime / videoDuration) * 100;
-            if (progressBarFill) progressBarFill.style.width = `${pct}%`;
-            
-            const minutes = Math.floor(videoCurrentTime / 60);
-            const seconds = videoCurrentTime % 60;
-            const formattedSec = seconds < 10 ? `0${seconds}` : seconds;
-            if (videoTimeLbl) {
-                videoTimeLbl.textContent = `${minutes}:${formattedSec} / 2:15`;
-            }
-        }, 1000);
-    };
-
-    const stopSimulatedPlayback = () => {
-        isVideoPlaying = false;
-        if (modalPlayBtn) {
-            modalPlayBtn.innerHTML = `<i class="fa-solid fa-play"></i>`;
-        }
-        clearInterval(simulatedPlaybackInterval);
-        
-        if (slideContent) {
-            slideContent.classList.add("animate-pulse");
-            slideContent.innerHTML = `
-                <i class="fa-solid fa-circle-user avatar-placeholder"></i>
-                <h2>Juan Pablo Sánchez</h2>
-                <p class="role-desc">Resumen Profesional y Formación</p>
-                <p class="slide-subtitle">Reproducción en pausa.</p>
-            `;
-        }
-    };
-
-    if (playVideoBtn) {
-        playVideoBtn.addEventListener("click", () => {
-            if (videoModal) {
-                videoModal.style.display = "flex";
-                void videoModal.offsetWidth;
-                videoModal.style.opacity = "1";
-            }
-            startSimulatedPlayback();
-            document.body.style.overflow = "hidden";
-        });
-    }
-
-    const closeVideoModal = () => {
-        stopSimulatedPlayback();
-        if (videoModal) {
-            videoModal.style.opacity = "0";
-            setTimeout(() => {
-                videoModal.style.display = "none";
-                document.body.style.overflow = "";
-            }, 400);
-        }
-    };
-
-    if (videoCloseBtn) {
-        videoCloseBtn.addEventListener("click", closeVideoModal);
-    }
-
-    if (modalPlayBtn) {
-        modalPlayBtn.addEventListener("click", () => {
-            if (isVideoPlaying) {
-                stopSimulatedPlayback();
-            } else {
-                startSimulatedPlayback();
-            }
-        });
-    }
-
-    if (modalMuteBtn) {
-        modalMuteBtn.addEventListener("click", () => {
-            isVideoMuted = !isVideoMuted;
-            if (isVideoMuted) {
-                modalMuteBtn.innerHTML = `<i class="fa-solid fa-volume-xmark"></i>`;
-            } else {
-                modalMuteBtn.innerHTML = `<i class="fa-solid fa-volume-high"></i>`;
-            }
-        });
-    }
-
-    if (videoModal) {
-        videoModal.addEventListener("click", (e) => {
-            if (e.target === videoModal) {
-                closeVideoModal();
-            }
-        });
-    }
 
     // ==================== CAREER TIMELINE DATA & GENERATION =======    // ==================== CAREER DASHBOARD DATA & GENERATION =======    // ==================== EXPERIENCE DATA & OVERLAY GENERATION ====================
     const experienceData = {
@@ -567,17 +413,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // Inject roles list
             if (experienceRolesList) {
                 experienceRolesList.innerHTML = expData.roles.map(role => `
-                    <div class="era-milestone-item" style="padding: 18px 24px; margin-bottom: 15px;">
-                        <div class="milestone-header" style="margin-bottom: 8px;">
-                            <div class="milestone-title-area">
-                                <h4 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 2px;">${role.role}</h4>
-                                <span class="milestone-company" style="font-size: 0.85rem; font-weight: 600; color: #60a5fa;">${role.company}</span>
-                            </div>
-                            <span class="milestone-period" style="font-size: 0.8rem; padding: 2px 8px;">${role.period}</span>
+                    <div class="era-milestone-item" style="padding: 14px 20px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; gap: 15px; border: 1px solid var(--border-glass); border-radius: 12px; background: rgba(30, 41, 59, 0.2);">
+                        <div class="milestone-title-area">
+                            <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 4px;">${role.role}</h4>
+                            <span class="milestone-company" style="font-size: 0.85rem; font-weight: 600; color: #60a5fa;">${role.company}</span>
                         </div>
-                        <div class="milestone-tools">
-                            ${role.tools.map(tool => `<span class="milestone-tool-badge">${tool}</span>`).join('')}
-                        </div>
+                        <span class="milestone-period" style="font-size: 0.8rem; padding: 4px 10px; background: rgba(96, 165, 250, 0.1); border: 1px solid rgba(96, 165, 250, 0.2); border-radius: 20px; color: #60a5fa; white-space: nowrap;">${role.period}</span>
                     </div>
                 `).join('');
             }

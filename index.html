@@ -81,7 +81,7 @@
             <section id="inicio" class="hero-section">
                 <div class="container hero-container">
                     <div class="hero-content animate-fade-in">
-                        <span class="hero-badge">Portafolio Profesional 2026</span>
+                        <span class="hero-badge">Porfolio 2026</span>
                         <h1 class="hero-title">Juan Pablo Sánchez</h1>
                         <h2 class="hero-subtitle">
                             <span id="typing-text"></span><span class="cursor">|</span>
@@ -119,7 +119,7 @@
                     <div class="section-header">
                         <h2>Sobre Mí</h2>
                     </div>
-                    <div class="about-grid">
+                    <div style="max-width: 900px; margin: 0 auto;">
                         <div class="about-info">
                             <p class="about-lead">
                                 Mi recorrido combina experiencia en operaciones, calidad, mejora continua, gestión de proyectos, atracción de talento, desarrollo, People Analytics y transformación organizacional.
@@ -130,24 +130,6 @@
                             <p class="about-lead">
                                 Actualmente participo en proyectos de consultoría freelance en <strong>Entropyx</strong> y <strong>Knowment</strong>, con foco en procesos, automatización, talento, tecnología e IA aplicada a la gestión.
                             </p>
-                        </div>
-
-                        <!-- VIDEO RESUMEN CARD -->
-                        <div class="about-video-summary">
-                            <div class="video-card-container">
-                                <div class="video-preview-image border-glow-purple">
-                                    <div class="video-glow-effect"></div>
-                                    <div class="video-overlay">
-                                        <button class="play-btn" id="play-video-btn" aria-label="Reproducir video resumen">
-                                            <i class="fa-solid fa-play"></i>
-                                        </button>
-                                        <div class="video-info">
-                                            <h3>Video Resumen</h3>
-                                            <p>Conocé más sobre mi perfil en 2 minutos</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -568,44 +550,7 @@
         </div>
     </div>
 
-    <!-- ==================== VIDEO PLAYER MODAL ==================== -->
-    <div id="video-modal" class="video-modal">
-        <div class="video-modal-content">
-            <button class="video-close-btn" id="video-close-btn-el" aria-label="Cerrar reproductor">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <div class="video-player-wrapper">
-                <div class="mockup-video-player">
-                    <div class="player-header">
-                        <span class="player-dot red"></span>
-                        <span class="player-dot yellow"></span>
-                        <span class="player-dot green"></span>
-                        <span class="player-title">Video Resumen - Juan Pablo Sánchez</span>
-                    </div>
-                    <div class="player-body" id="player-body">
-                        <div class="presentation-slide animate-pulse" id="slide-content">
-                            <i class="fa-solid fa-circle-user avatar-placeholder"></i>
-                            <h2>Juan Pablo Sánchez</h2>
-                            <p class="role-desc">Resumen Profesional y Formación</p>
-                            <p class="slide-subtitle">Reproducción simulada.</p>
-                        </div>
-                        <video id="local-video-player" class="hidden-player" controls>
-                            <source src="" type="video/mp4">
-                            Tu navegador no soporta el reproductor de video.
-                        </video>
-                    </div>
-                    <div class="player-controls-bar">
-                        <button id="modal-play-btn"><i class="fa-solid fa-play"></i></button>
-                        <div class="progress-bar-container">
-                            <div class="progress-bar-fill" id="progress-bar-fill"></div>
-                        </div>
-                        <span class="time-lbl" id="video-time-lbl">0:00 / 2:15</span>
-                        <button id="modal-mute-btn"><i class="fa-solid fa-volume-high"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Custom JS -->
     <script src="app.js"></script>
