@@ -198,199 +198,349 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ==================== CAREER TIMELINE DATA & GENERATION =======    // ==================== CAREER DASHBOARD DATA & GENERATION =======    // ==================== EXPERIENCE DATA & OVERLAY GENERATION ====================
     const experienceData = {
-        liderazgo: {
-            title: "Liderazgo y Project Management",
-            desc: "Liderazgo de equipos, gestión de iniciativas, priorización, seguimiento de avances, coordinación de stakeholders y gobierno de procesos en contextos de transformación.",
-            metrics: [
-                { value: "10+ años", label: "De experiencia", detail: "Gestionando iniciativas, procesos, stakeholders, equipos o proyectos transversales." },
-                { value: "+1500", label: "Colaboradores", detail: "Estructura gestionada en Grupo Gire" },
-                { value: "120+", label: "Líderes Capacitados", detail: "Programa HERA de desarrollo directivo" },
-                { value: "6", label: "Reportes Directos", detail: "Liderazgo de equipo en salud y HR" }
-            ],
-            roles: [
-                {
-                    role: "Jefe de TA & People Analytics",
-                    company: "ASE | Medifé | Finochietto",
-                    period: "Nov 2023 - Nov 2025",
-                    tools: ["Power BI", "Power Query", "Excel Avanzado", "Meta4"]
-                },
-                {
-                    role: "Jefe de Talento",
-                    company: "Grupo Gire",
-                    period: "Oct 2021 - May 2023",
-                    tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
-                },
-                {
-                    role: "Head of People",
-                    company: "ICAP Global",
-                    period: "Jun 2023 - Nov 2023",
-                    tools: ["Onboarding Digital", "Compensaciones", "Planes de Sucesión"]
-                },
-                {
-                    role: "IT & Digital Talent Lead",
-                    company: "Grupo Gire",
-                    period: "May 2021 - Nov 2021",
-                    tools: ["Digital Sourcing", "Tech Reskilling", "Tech Branding"]
-                },
-                {
-                    role: "Analista de Calidad / Team Leader",
-                    company: "Nextel",
-                    period: "Jun 2010 - Oct 2012",
-                    tools: ["Coaching", "Matrices de Calidad", "NPS"]
-                }
-            ]
-        },
-        change: {
-            title: "Implementación y adopción de sistemas",
-            desc: "Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).",
-            metrics: [
-                { value: "9+ años", label: "De experiencia", detail: "Participando en proyectos de implementación, evolución funcional, UAT, capacitación y adopción de sistemas." },
-                { value: "100%", label: "Adopción", detail: "Migración exitosa a SuccessFactors y SAP" },
-                { value: "80%", label: "Satisfacción", detail: "Programas de inducción y L&D" },
-                { value: "-35%", label: "Time-to-Market", detail: "Adopción de Scrum en células de IT" }
-            ],
-            roles: [
-                {
-                    role: "Consultor de Desarrollo & Negocios",
-                    company: "Knowment",
-                    period: "Jun 2025 - Actualidad",
-                    tools: ["Change Management", "Diseño Organizacional", "Formatos Culturales"]
-                },
-                {
-                    role: "HRBP IT & L&D Lead",
-                    company: "Grupo Gire",
-                    period: "Oct 2019 - Oct 2020",
-                    tools: ["Agile Coaching", "E-learning", "Coaching de Equipos"]
-                },
-                {
-                    role: "Especialista en Desarrollo de Talento",
-                    company: "Grupo Gire",
-                    period: "Ene 2019 - Oct 2019",
-                    tools: ["IDP", "Calibración Desempeño", "Coaching"]
-                },
-                {
-                    role: "Analista Ssr. de Procesos",
-                    company: "Swiss Medical Group",
-                    period: "Dic 2015 - May 2016",
-                    tools: ["SuccessFactors", "UAT", "BPMN"]
-                },
-                {
-                    role: "Analista de Aprendizaje",
-                    company: "Tarjeta Naranja",
-                    period: "Dic 2012 - Dic 2013",
-                    tools: ["L&D", "Onboarding", "Indicadores de Aprendizaje"]
-                }
-            ]
-        },
-        procesos: {
-            title: "Diseño de servicios y Procesos",
-            desc: "Relevamiento, AS IS / TO BE, service blueprint, documentación funcional, mejora continua y diseño de procesos para nuevos servicios, operaciones y áreas de gestión.",
-            metrics: [
-                { value: "10+ años", label: "De experiencia", detail: "En mejora continua, reingeniería operativa, AS IS / TO BE, documentación funcional, implementación y gestión del cambio." },
-                { value: "-30%", label: "Tiempo de Espera", detail: "Optimización de atención en cajas en Coppel" },
-                { value: "-25%", label: "Conciliación Diaria", detail: "Estandarización de Rapipago" },
-                { value: "-18%", label: "Costos Operativos", detail: "Rediseño de layout logístico en Coppel" }
-            ],
-            roles: [
-                {
-                    role: "Analista Sr. de Procesos",
-                    company: "Grupo Gire",
-                    period: "May 2016 - Ene 2019",
-                    tools: ["SAP", "Dynamics CRM", "BPMN", "Scrum", "Kanban", "OKRs"]
-                },
-                {
-                    role: "Analista de Mejora Continua",
-                    company: "Coppel",
-                    period: "Feb 2014 - Dic 2015",
-                    tools: ["Lean Six Sigma", "BPMN", "Relaciones Laborales"]
-                }
-            ]
-        },
-        talento: {
-            title: "Gestión de Talento & HRBP",
-            desc: "Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.",
-            metrics: [
-                { value: "10+ años", label: "De experiencia", detail: "En procesos de talento, aprendizaje, desarrollo, HRBP, atracción, desempeño y acompañamiento a líderes." },
-                { value: "-12%", label: "Rotación IT", detail: "Diseño de bandas salariales y beneficios" },
-                { value: "+600", label: "Altas Anuales", detail: "Onboarding de personal de salud (ASE/Medifé)" },
-                { value: "100%", label: "Cobertura Nine Box", detail: "Estrategia de potencial y planes de sucesión" }
-            ],
-            roles: [
-                {
-                    role: "Líder de Atracción de Talento",
-                    company: "Grupo Cober",
-                    period: "Ene 2026 - May 2026",
-                    tools: ["Power BI", "Airtable", "n8n", "AI Sourcing"]
-                },
-                {
-                    role: "Jefe de Talento",
-                    company: "Grupo Gire",
-                    period: "Oct 2021 - May 2023",
-                    tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
-                },
-                {
-                    role: "HRBP IT",
-                    company: "Emergencias",
-                    period: "Oct 2020 - May 2021",
-                    tools: ["SuccessFactors", "Agile Células", "IT Recruitment"]
-                },
-                {
-                    role: "IT Freelance Recruiter",
-                    company: "Autónomo",
-                    period: "Ene 2019 - Jun 2022",
-                    tools: ["IT Recruitment", "Sourcing", "Tech Pipeline"]
-                }
-            ]
-        },
-        analytics: {
-            title: "People Analytics & HRIS",
-            desc: "Construcción de indicadores, tableros ejecutivos, limpieza y unificación de bases, criterios de lectura, reportería de gestión y soporte funcional en HRIS / HR Tech.",
-            metrics: [
-                { value: "10+ años", label: "De experiencia", detail: "Trabajando con indicadores, reportes y tableros de gestión." },
-                { value: "2+ años", label: "De liderazgo", detail: "Liderando formalmente People Analytics." },
-                { value: "3000+", label: "Colaboradores", detail: "Tablero unificado de People Analytics para Comité." },
-                { value: "100%", label: "Control Presupuestario", detail: "Automatización del proceso anual de gastos de personal." }
-            ],
-            roles: [
-                {
-                    role: "Jefe de TA & People Analytics",
-                    company: "ASE | Medifé | Finochietto",
-                    period: "Nov 2023 - Nov 2025",
-                    tools: ["Power BI", "Power Query", "Excel Avanzado", "Meta4"]
-                },
-                {
-                    role: "Jefe de Talento",
-                    company: "Grupo Gire",
-                    period: "Oct 2021 - May 2023",
-                    tools: ["SuccessFactors", "Nine Box", "Presupuestos HR"]
-                },
-                {
-                    role: "Analista Ssr. de Procesos",
-                    company: "Swiss Medical Group",
-                    period: "Dic 2015 - May 2016",
-                    tools: ["SuccessFactors", "UAT", "BPMN"]
-                }
-            ]
-        },
-        automatizacion: {
-            title: "Automatización & IA",
-            desc: "Diseño de soluciones funcionales y técnicas con automatización, IA generativa y herramientas low-code/no-code para ordenar información, mejorar trazabilidad y reducir tareas manuales.",
-            metrics: [
-                { value: "2+ años", label: "De experiencia", detail: "Aplicando automatización, IA generativa, low-code/no-code y herramientas digitales a procesos de gestión." },
-                { value: "80%", label: "Screening con IA", detail: "Filtro de candidatos por IA en ATS interno" },
-                { value: "-45%", label: "Soporte de HR", detail: "Bot de consultas RAG integrado en Teams" },
-                { value: "-10h", label: "Semanales", detail: "Ahorro de tiempo en administración mediante flujos n8n" }
-            ],
-            roles: [
-                {
-                    role: "Consultor en Procesos, IA & Talento",
-                    company: "Entropyx",
-                    period: "May 2026 - Actualidad",
-                    tools: ["n8n", "Make", "IA Generativa", "LLMs (GPT-4o)", "APIs", "Apps Script"]
-                }
-            ]
-        }
-    };
+    "liderazgo": {
+        "title": "Liderazgo y Project Management",
+        "desc": "Liderazgo de equipos, gestión de iniciativas, priorización, seguimiento de avances, coordinación de stakeholders y gobierno de procesos en contextos de transformación.",
+        "metrics": [
+            {
+                "value": "10+ años",
+                "label": "De experiencia",
+                "detail": "Gestionando iniciativas, procesos, stakeholders, equipos o proyectos transversales."
+            },
+            {
+                "value": "+1500",
+                "label": "Colaboradores",
+                "detail": "Estructura gestionada en Grupo Gire"
+            },
+            {
+                "value": "120+",
+                "label": "Líderes Capacitados",
+                "detail": "Programa HERA de desarrollo directivo"
+            },
+            {
+                "value": "6",
+                "label": "Reportes Directos",
+                "detail": "Liderazgo de equipo en salud y HR"
+            }
+        ],
+        "roles": [
+            {
+                "role": "Líder de Atracción de Talento",
+                "company": "Grupo Cober",
+                "period": "Ene 2026 - May 2026",
+                "tools": []
+            },
+            {
+                "role": "Jefe de TA & People Analytics",
+                "company": "ASE | Medifé | Finochietto",
+                "period": "Nov 2023 - Nov 2025",
+                "tools": []
+            },
+            {
+                "role": "Head of People",
+                "company": "ICAP Global",
+                "period": "Jun 2023 - Nov 2023",
+                "tools": []
+            },
+            {
+                "role": "Jefe de Talento",
+                "company": "Grupo Gire",
+                "period": "Oct 2021 - May 2023",
+                "tools": []
+            },
+            {
+                "role": "IT & Digital Talent Lead",
+                "company": "Grupo Gire",
+                "period": "May 2021 - Nov 2021",
+                "tools": []
+            },
+            {
+                "role": "Líder de Desarrollo de Talento",
+                "company": "Grupo Gire",
+                "period": "Oct 2019 - Oct 2020",
+                "tools": []
+            },
+            {
+                "role": "Analista de Calidad / Team Leader",
+                "company": "Nextel",
+                "period": "Jun 2010 - Oct 2012",
+                "tools": []
+            }
+        ]
+    },
+    "change": {
+        "title": "Implementación y adopción de sistemas",
+        "desc": "Acompañamiento a líderes y usuarios en transiciones tecnológicas. Gestión del impacto, relevamiento AS IS / TO BE, diseño de capacitaciones y testing funcional (UAT).",
+        "metrics": [
+            {
+                "value": "9+ años",
+                "label": "De experiencia",
+                "detail": "Participando en proyectos de implementación, evolución funcional, UAT, capacitación y adopción de sistemas."
+            },
+            {
+                "value": "100%",
+                "label": "Adopción",
+                "detail": "Migración exitosa a SuccessFactors y SAP"
+            },
+            {
+                "value": "80%",
+                "label": "Satisfacción",
+                "detail": "Programas de inducción y L&D"
+            },
+            {
+                "value": "-35%",
+                "label": "Time-to-Market",
+                "detail": "Adopción de Scrum en células de IT"
+            }
+        ],
+        "roles": [
+            {
+                "role": "Consultor en Procesos, IA & Talento",
+                "company": "Entropyx",
+                "period": "May 2026 - Actualidad",
+                "tools": []
+            },
+            {
+                "role": "Jefe de TA & People Analytics",
+                "company": "ASE | Medifé | Finochietto",
+                "period": "Nov 2023 - Nov 2025",
+                "tools": []
+            },
+            {
+                "role": "HRBP IT & L&D Lead",
+                "company": "Grupo Gire",
+                "period": "Oct 2019 - Oct 2020",
+                "tools": []
+            },
+            {
+                "role": "Especialista en Desarrollo de Talento",
+                "company": "Grupo Gire",
+                "period": "Ene 2019 - Oct 2019",
+                "tools": []
+            },
+            {
+                "role": "Analista Sr. de Procesos",
+                "company": "Grupo Gire",
+                "period": "May 2016 - Ene 2019",
+                "tools": []
+            },
+            {
+                "role": "Analista Ssr. de Procesos",
+                "company": "Swiss Medical Group",
+                "period": "Dic 2015 - May 2016",
+                "tools": []
+            },
+            {
+                "role": "Analista de Aprendizaje",
+                "company": "Tarjeta Naranja",
+                "period": "Dic 2012 - Dic 2013",
+                "tools": []
+            }
+        ]
+    },
+    "procesos": {
+        "title": "Diseño de servicios y Procesos",
+        "desc": "Relevamiento, AS IS / TO BE, service blueprint, documentación funcional, mejora continua y diseño de procesos para nuevos servicios, operaciones y áreas de gestión.",
+        "metrics": [
+            {
+                "value": "10+ años",
+                "label": "De experiencia",
+                "detail": "En mejora continua, reingeniería operativa, AS IS / TO BE, documentación funcional, implementación y gestión del cambio."
+            },
+            {
+                "value": "-30%",
+                "label": "Tiempo de Espera",
+                "detail": "Optimización de atención en cajas en Coppel"
+            },
+            {
+                "value": "-25%",
+                "label": "Conciliación Diaria",
+                "detail": "Estandarización de Rapipago"
+            },
+            {
+                "value": "-18%",
+                "label": "Costos Operativos",
+                "detail": "Rediseño de layout logístico en Coppel"
+            }
+        ],
+        "roles": [
+            {
+                "role": "Analista Sr. de Procesos",
+                "company": "Grupo Gire",
+                "period": "May 2016 - Ene 2019",
+                "tools": []
+            },
+            {
+                "role": "Analista Ssr. de Procesos",
+                "company": "Swiss Medical Group",
+                "period": "Dic 2015 - May 2016",
+                "tools": []
+            },
+            {
+                "role": "Analista de Mejora Continua",
+                "company": "Coppel",
+                "period": "Feb 2014 - Dic 2015",
+                "tools": []
+            }
+        ]
+    },
+    "talento": {
+        "title": "Gestión de Talento & HRBP",
+        "desc": "Soporte estratégico como socio de negocio cercano a operaciones críticas y áreas de IT. Diseño de programas de desempeño, onboarding, potencial (Nine Box) y planes de desarrollo.",
+        "metrics": [
+            {
+                "value": "10+ años",
+                "label": "De experiencia",
+                "detail": "En procesos de talento, aprendizaje, desarrollo, HRBP, atracción, desempeño y acompañamiento a líderes."
+            },
+            {
+                "value": "-12%",
+                "label": "Rotación IT",
+                "detail": "Diseño de bandas salariales y beneficios"
+            },
+            {
+                "value": "+600",
+                "label": "Altas Anuales",
+                "detail": "Onboarding de personal de salud (ASE/Medifé)"
+            },
+            {
+                "value": "100%",
+                "label": "Cobertura Nine Box",
+                "detail": "Estrategia de potencial y planes de sucesión"
+            }
+        ],
+        "roles": [
+            {
+                "role": "Consultor en Procesos, IA & Talento",
+                "company": "Entropyx",
+                "period": "May 2026 - Actualidad",
+                "tools": []
+            },
+            {
+                "role": "Líder de Atracción de Talento",
+                "company": "Grupo Cober",
+                "period": "Ene 2026 - May 2026",
+                "tools": []
+            },
+            {
+                "role": "Jefe de TA & People Analytics",
+                "company": "ASE | Medifé | Finochietto",
+                "period": "Nov 2023 - Nov 2025",
+                "tools": []
+            },
+            {
+                "role": "Jefe de Talento",
+                "company": "Grupo Gire",
+                "period": "Oct 2021 - May 2023",
+                "tools": []
+            },
+            {
+                "role": "HRBP IT",
+                "company": "Emergencias",
+                "period": "Oct 2020 - May 2021",
+                "tools": []
+            },
+            {
+                "role": "HRBP IT y Líder de Desarrollo de Talento",
+                "company": "Grupo Gire",
+                "period": "Oct 2019 - Oct 2020",
+                "tools": []
+            },
+            {
+                "role": "IT Freelance Recruiter",
+                "company": "Autónomo",
+                "period": "Ene 2019 - Jun 2022",
+                "tools": []
+            }
+        ]
+    },
+    "analytics": {
+        "title": "People Analytics & HRIS",
+        "desc": "Construcción de indicadores, tableros ejecutivos, limpieza y unificación de bases, criterios de lectura, reportería de gestión y soporte funcional en HRIS / HR Tech.",
+        "metrics": [
+            {
+                "value": "10+ años",
+                "label": "De experiencia",
+                "detail": "Trabajando con indicadores, reportes y tableros de gestión."
+            },
+            {
+                "value": "2+ años",
+                "label": "De liderazgo",
+                "detail": "Liderando formalmente People Analytics."
+            },
+            {
+                "value": "3000+",
+                "label": "Colaboradores",
+                "detail": "Tablero unificado de People Analytics para Comité."
+            },
+            {
+                "value": "100%",
+                "label": "Control Presupuestario",
+                "detail": "Automatización del proceso anual de gastos de personal."
+            }
+        ],
+        "roles": [
+            {
+                "role": "Jefe de TA & People Analytics",
+                "company": "ASE | Medifé | Finochietto",
+                "period": "Nov 2023 - Nov 2025",
+                "tools": []
+            },
+            {
+                "role": "Jefe de Talento",
+                "company": "Grupo Gire",
+                "period": "Oct 2021 - May 2023",
+                "tools": []
+            },
+            {
+                "role": "Analista Ssr. de Procesos",
+                "company": "Swiss Medical Group",
+                "period": "Dic 2015 - May 2016",
+                "tools": []
+            }
+        ]
+    },
+    "automatizacion": {
+        "title": "Automatización & IA",
+        "desc": "Diseño de soluciones funcionales y técnicas con automatización, IA generativa y herramientas low-code/no-code para ordenar información, mejorar trazabilidad y reducir tareas manuales.",
+        "metrics": [
+            {
+                "value": "2+ años",
+                "label": "De experiencia",
+                "detail": "Aplicando automatización, IA generativa, low-code/no-code y herramientas digitales a procesos de gestión."
+            },
+            {
+                "value": "80%",
+                "label": "Screening con IA",
+                "detail": "Filtro de candidatos por IA en ATS interno"
+            },
+            {
+                "value": "-45%",
+                "label": "Soporte de HR",
+                "detail": "Bot de consultas RAG integrado en Teams"
+            },
+            {
+                "value": "-10h",
+                "label": "Semanales",
+                "detail": "Ahorro de tiempo en administración mediante flujos n8n"
+            }
+        ],
+        "roles": [
+            {
+                "role": "Consultor en Procesos, IA & Talento",
+                "company": "Entropyx",
+                "period": "May 2026 - Actualidad",
+                "tools": []
+            },
+            {
+                "role": "Líder de Atracción de Talento",
+                "company": "Grupo Cober",
+                "period": "Ene 2026 - May 2026",
+                "tools": []
+            }
+        ]
+    }
+};
 
     // Experience Overlay Elements
     const experienceOverlay = document.getElementById("experience-overlay");
