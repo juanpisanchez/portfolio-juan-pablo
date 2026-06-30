@@ -213,11 +213,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "detail": "Estructura gestionada en Grupo Gire"
             },
             {
-                "value": "120+",
-                "label": "Líderes Capacitados",
-                "detail": "Programa HERA de desarrollo directivo"
-            },
-            {
                 "value": "6",
                 "label": "Reportes Directos",
                 "detail": "Liderazgo de equipo en salud y HR"
@@ -276,21 +271,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "value": "9+ años",
                 "label": "De experiencia",
                 "detail": "Participando en proyectos de implementación, evolución funcional, UAT, capacitación y adopción de sistemas."
-            },
-            {
-                "value": "100%",
-                "label": "Adopción",
-                "detail": "Migración exitosa a SuccessFactors y SAP"
-            },
-            {
-                "value": "80%",
-                "label": "Satisfacción",
-                "detail": "Programas de inducción y L&D"
-            },
-            {
-                "value": "-35%",
-                "label": "Time-to-Market",
-                "detail": "Adopción de Scrum en células de IT"
             }
         ],
         "roles": [
@@ -346,21 +326,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "value": "10+ años",
                 "label": "De experiencia",
                 "detail": "En mejora continua, reingeniería operativa, AS IS / TO BE, documentación funcional, implementación y gestión del cambio."
-            },
-            {
-                "value": "-30%",
-                "label": "Tiempo de Espera",
-                "detail": "Optimización de atención en cajas en Coppel"
-            },
-            {
-                "value": "-25%",
-                "label": "Conciliación Diaria",
-                "detail": "Estandarización de Rapipago"
-            },
-            {
-                "value": "-18%",
-                "label": "Costos Operativos",
-                "detail": "Rediseño de layout logístico en Coppel"
             }
         ],
         "roles": [
@@ -394,19 +359,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 "detail": "En procesos de talento, aprendizaje, desarrollo, HRBP, atracción, desempeño y acompañamiento a líderes."
             },
             {
-                "value": "-12%",
-                "label": "Rotación IT",
-                "detail": "Diseño de bandas salariales y beneficios"
-            },
-            {
                 "value": "+600",
                 "label": "Altas Anuales",
                 "detail": "Onboarding de personal de salud (ASE/Medifé)"
-            },
-            {
-                "value": "100%",
-                "label": "Cobertura Nine Box",
-                "detail": "Estrategia de potencial y planes de sucesión"
             }
         ],
         "roles": [
@@ -508,21 +463,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 "value": "2+ años",
                 "label": "De experiencia",
                 "detail": "Aplicando automatización, IA generativa, low-code/no-code y herramientas digitales a procesos de gestión."
-            },
-            {
-                "value": "80%",
-                "label": "Screening con IA",
-                "detail": "Filtro de candidatos por IA en ATS interno"
-            },
-            {
-                "value": "-45%",
-                "label": "Soporte de HR",
-                "detail": "Bot de consultas RAG integrado en Teams"
-            },
-            {
-                "value": "-10h",
-                "label": "Semanales",
-                "detail": "Ahorro de tiempo en administración mediante flujos n8n"
             }
         ],
         "roles": [
@@ -915,7 +855,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "datos",
                     "automatización",
                     "gestión de demanda",
-                    "mejora continua. =================================================="
+                    "mejora continua"
                 ],
                 "summary": "Lideré la transformación operativa del área de Selección de Grupo Cober, en una operación de alta demanda."
             }
@@ -1106,7 +1046,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "procesos",
                     "innovación operativa",
                     "implementación",
-                    "articulación con stakeholders. =================================================="
+                    "articulación con stakeholders"
                 ],
                 "summary": "Participé en el piloto de Smart Boxes desde el rol de procesos."
             }
@@ -1262,7 +1202,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "Learning",
                     "implementación funcional",
                     "adopción de sistemas",
-                    "capacitación. =================================================="
+                    "capacitación"
                 ],
                 "summary": "Participé en la migración e implementación de la gestión de capacitaciones en Oracle HCM."
             }
@@ -1366,7 +1306,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "análisis",
                     "mejora de procesos",
                     "negociación",
-                    "Talent Operations. =================================================="
+                    "Talent Operations"
                 ],
                 "summary": "Relevé y analicé proveedores de selección para mejorar cobertura, especialización y condiciones de servicio."
             }
@@ -1444,7 +1384,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "desarrollo organizacional",
                     "transformación",
                     "gestión de objetivos",
-                    "adopción de prácticas. =================================================="
+                    "adopción de prácticas"
                 ],
                 "summary": "Participé en iniciativas vinculadas a liderazgo, OKRs, desempeño y desarrollo de capacidades para sostener procesos de transformación."
             }
@@ -1594,7 +1534,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "sucesión",
                     "liderazgo",
                     "desarrollo",
-                    "planificación de capacidades. =================================================="
+                    "planificación de capacidades"
                 ],
                 "summary": "Lideré iniciativas vinculadas a identificación de puestos críticos, riesgo de cobertura y planificación de sucesión."
             }
@@ -1625,7 +1565,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "talento",
                     "negocio",
                     "perfiles críticos",
-                    "toma de decisiones. =================================================="
+                    "toma de decisiones"
                 ],
                 "summary": "Participé en iniciativas de análisis salarial, benchmarks y criterios de compensación para perfiles IT, críticos y posiciones de liderazgo."
             }
@@ -1781,7 +1721,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     "control de gestión",
                     "estructura",
                     "datos",
-                    "soporte a decisiones. =================================================="
+                    "soporte a decisiones"
                 ],
                 "summary": "Participé en iniciativas vinculadas al control de headcount, seguimiento de dotación, estructura y demanda de cobertura."
             }
