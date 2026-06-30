@@ -1317,7 +1317,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "desc": "Programas de transformación, gestión del cambio, liderazgo, agilidad, OKRs, desarrollo de capacidades y acompañamiento a líderes y equipos.",
         "projects": [
             {
-                "title": "Programa ERA de transformación cultural",
+                "title": "Programa HERA de transformación cultural",
                 "company": "Grupo Gire",
                 "type": "Transformación cultural · Cambio organizacional · Talento",
                 "what": "Participé en un programa de transformación cultural orientado a liderazgo, capacidades, talento y nuevas formas de trabajo.",
